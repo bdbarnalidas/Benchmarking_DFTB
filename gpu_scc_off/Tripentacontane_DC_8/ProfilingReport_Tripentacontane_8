@@ -1,0 +1,1977 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 55.50      0.61     0.61   297021     0.00     0.00  __dftbp_interpolation_MOD_polyinteru2
+ 10.09      0.72     0.11    34670     0.00     0.02  __dftbp_nonscc_MOD_getfirstderiv
+  7.34      0.80     0.08   319472     0.00     0.00  __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals
+  4.59      0.85     0.05      202     0.25     0.25  __dftbp_populations_MOD_mullikenperorbital
+  3.67      0.89     0.04   232027     0.00     0.00  __dftbp_sk_MOD_rotateh0
+  3.67      0.93     0.04      101     0.40     0.59  __dftbp_periodic_MOD_updateneighbourlist
+  3.67      0.97     0.04      101     0.40     0.40  __dftbp_sparse2dense_MOD_packhs_real
+  3.67      1.01     0.04                             __dftbp_elecconstraints_MOD_constrainq
+  2.75      1.04     0.03      202     0.15     0.15  __dftbp_sparse2dense_MOD_unpackhs_real
+  1.83      1.06     0.02    16968     0.00     0.00  __dftbp_sorting_MOD_index_heap_sort_real
+  0.92      1.07     0.01      808     0.01     0.20  __dftbp_main_MOD_hasstopfile
+  0.92      1.08     0.01      101     0.10     0.10  __dftbp_mainio_MOD_writedetailedout1
+  0.92      1.09     0.01      101     0.10     0.10  __dftbp_repulsive_MOD_geterep
+  0.46      1.09     0.01                             __dftbp_interpolation_MOD_polyinter
+  0.00      1.09     0.00   243231     0.00     0.00  __dftbp_slakocont_MOD_slakocont_getskintegrals
+  0.00      1.09     0.00    70210     0.00     0.00  __dftbp_bisect_MOD_bisection_real
+  0.00      1.09     0.00    43719     0.00     0.00  __dftbp_repcont_MOD_repcont_getenergy
+  0.00      1.09     0.00    43719     0.00     0.00  __dftbp_repcont_MOD_repcont_getenergyderiv
+  0.00      1.09     0.00    43719     0.00     0.00  __dftbp_repspline_MOD_repspline_getenergy
+  0.00      1.09     0.00    43719     0.00     0.00  __dftbp_repspline_MOD_repspline_getenergyderiv
+  0.00      1.09     0.00    43136     0.00     0.00  __dftbp_slakocont_MOD_slakocont_getmintegrals
+  0.00      1.09     0.00    33734     0.00     0.00  __dftbp_periodic_MOD_getnrofneighbours
+  0.00      1.09     0.00    19769     0.00     0.00  __dftbp_interpolation_MOD_poly5tozero
+  0.00      1.09     0.00    16869     0.00     0.00  __dftbp_orbitals_MOD_getshellnames
+  0.00      1.09     0.00     1401     0.00     0.00  __xmlf90_strings_MOD_assign_c_to_s
+  0.00      1.09     0.00     1270     0.00     0.00  __xmlf90_strings_MOD_s_eq_c
+  0.00      1.09     0.00     1216     0.00     0.00  __dftbp_timer_MOD_start
+  0.00      1.09     0.00     1214     0.00     0.00  __dftbp_timer_MOD_getcputime
+  0.00      1.09     0.00     1214     0.00     0.00  __dftbp_timer_MOD_getwallclocktime
+  0.00      1.09     0.00     1213     0.00     0.00  __dftbp_timer_MOD_stoptimer
+  0.00      1.09     0.00     1114     0.00     0.00  __dftbp_timerarray_MOD_starttimer
+  0.00      1.09     0.00     1112     0.00     0.00  __dftbp_timerarray_MOD_stoptimer
+  0.00      1.09     0.00     1031     0.00     0.00  __xmlf90_dom_node_MOD_getnextsibling
+  0.00      1.09     0.00      954     0.00     0.00  __dftbp_charmanip_MOD_complementaryscan
+  0.00      1.09     0.00      884     0.00     0.00  __xmlf90_strings_MOD_assign_s_to_s
+  0.00      1.09     0.00      862     0.00     0.00  __dftbp_tokenreader_MOD_getnexttoken_local
+  0.00      1.09     0.00      525     0.00     0.00  __xmlf90_dom_types_MOD_createnode
+  0.00      1.09     0.00      509     0.00     0.00  __dftbp_hsdutils_MOD_checkerror
+  0.00      1.09     0.00      504     0.00     0.00  __dftbp_tokenreader_MOD_getnexttoken_real
+  0.00      1.09     0.00      494     0.00     0.00  __xmlf90_strings_MOD_len_s
+  0.00      1.09     0.00      485     0.00     0.00  __dftbp_charmanip_MOD_unquotedindex
+  0.00      1.09     0.00      475     0.00     0.00  __xmlf90_dom_node_MOD_getnodename
+  0.00      1.09     0.00      408     0.00     0.00  __xmlf90_dom_types_MOD_destroynode
+  0.00      1.09     0.00      367     0.00     0.00  __xmlf90_strings_MOD_s_eq_s
+  0.00      1.09     0.00      342     0.00     0.00  __dftbp_tokenreader_MOD_getnexttoken_integer
+  0.00      1.09     0.00      334     0.00     0.00  __dftbp_mdcommon_MOD_boxmueller
+  0.00      1.09     0.00      305     0.00     0.00  __xmlf90_dom_namednodemap_MOD_getnameditem
+  0.00      1.09     0.00      303     0.00     0.00  __dftbp_schedule_MOD_distributerangeinchunks
+  0.00      1.09     0.00      303     0.00     0.00  __xmlf90_dom_node_MOD_getnodetype
+  0.00      1.09     0.00      302     0.00     0.00  __xmlf90_strings_MOD_s_to_c
+  0.00      1.09     0.00      295     0.00     0.00  __xmlf90_dom_node_MOD_getfirstchild
+  0.00      1.09     0.00      284     0.00     0.00  __xmlf90_dom_node_MOD_appendchild
+  0.00      1.09     0.00      281     0.00     0.00  __xmlf90_dom_element_MOD_getattributenode
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_attribute_MOD_attrib_setvalue
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_document_MOD_createattribute
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_element_MOD_setattribute
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_element_MOD_setattributenode
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_namednodemap_MOD_setnameditem
+  0.00      1.09     0.00      240     0.00     0.00  __xmlf90_dom_node_MOD_setnodevalue
+  0.00      1.09     0.00      231     0.00     0.00  __xmlf90_dom_namednodemap_MOD_append_nnm
+  0.00      1.09     0.00      218     0.00     0.00  __dftbp_charmanip_MOD_getfirstoccurance
+  0.00      1.09     0.00      211     0.00     0.00  __xmlf90_dom_document_MOD_createtextnode
+  0.00      1.09     0.00      203     0.00     0.00  __dftbp_mdcommon_MOD_evalke
+  0.00      1.09     0.00      202     0.00     0.00  __dftbp_blasroutines_MOD_herk_dble
+  0.00      1.09     0.00      202     0.00     0.55  __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum
+  0.00      1.09     0.00      202     0.00     0.00  __dftbp_periodic_MOD_getnrofneighboursforall
+  0.00      1.09     0.00      202     0.00     0.00  __dftbp_schedule_MOD_assembler1chunks
+  0.00      1.09     0.00      202     0.00     0.00  __dftbp_spin_MOD_qm2ud3
+  0.00      1.09     0.00      202     0.00     0.00  _init
+  0.00      1.09     0.00      199     0.00     0.00  __dftbp_charmanip_MOD_convertwhitespaces
+  0.00      1.09     0.00      171     0.00     0.00  __dftbp_charmanip_MOD_tolower
+  0.00      1.09     0.00      171     0.00     0.00  __xmlf90_dom_node_MOD_getnodevalue
+  0.00      1.09     0.00      170     0.00     0.00  __dftbp_ranlux_MOD___copy_dftbp_ranlux_Oranlux
+  0.00      1.09     0.00      169     0.00     0.00  __xmlf90_strings_MOD_append_to_string_s
+  0.00      1.09     0.00      168     0.00     0.00  __dftbp_ranlux_MOD_ranlux_getrandomvector
+  0.00      1.09     0.00      167     0.00     0.00  __dftbp_linkedlisti0_MOD_listint_append
+  0.00      1.09     0.00      167     0.00     0.00  __dftbp_mdcommon_MOD_maxwellboltzmann
+  0.00      1.09     0.00      167     0.00     0.00  __dftbp_tokenreader_MOD_getnexttoken_realr1
+  0.00      1.09     0.00      102     0.00     0.00  __dftbp_mdcommon_MOD_mdcommon_evalkt
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_densitymatrix_MOD_fulldensitymatrix_real
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_eigensolver_MOD_dble_dsygvd
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_eigenvects_MOD_diagdenserealmtx
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_elecsolvers_MOD_telectronicsolver_reset
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_elecsolvers_MOD_telectronicsolver_updateelectronictemp
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_etemp_MOD_derivelectroncount
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_etemp_MOD_efilling
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_etemp_MOD_electronfill
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_formatout_MOD_writegenformat_fid
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_formatout_MOD_writegenformat_fname
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_formatout_MOD_writexyzformat_fid
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_formatout_MOD_writexyzformat_fname
+  0.00      1.09     0.00      101     0.00     2.78  __dftbp_main_MOD_processgeometry
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_opendetailedout
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_printenergies
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_printgeostepinfo
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_printmdinfo
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writebandout
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writecurrentgeometry
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writedetailedout2
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writedetailedout3
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writedetailedout4
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writemdout1
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mainio_MOD_writemdout2
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mdintegrator_MOD_mdintegrator_next
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_mdintegrator_MOD_mdintegrator_state
+  0.00      1.09     0.00      101     0.00     0.55  __dftbp_nonscc_MOD_buildh0
+  0.00      1.09     0.00      101     0.00     0.55  __dftbp_nonscc_MOD_builds
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_periodic_MOD_getsparsedescriptor
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_periodic_MOD_reallocatearrays1
+  0.00      1.09     0.00      101     0.00     0.59  __dftbp_periodic_MOD_updateneighbourlistandspecies
+  0.00      1.09     0.00      101     0.00     0.25  __dftbp_populations_MOD_mullikenperatom
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_schedule_MOD_assembler2chunks
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_shift_MOD_add_shift_block
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_shift_MOD_addatom_shell
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_shift_MOD_addshell_block
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_spin_MOD_qm2ud2
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_spin_MOD_ud2qm2
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_thermostat_MOD_thermostat_state
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_thermostat_MOD_thermostat_updatevelocities
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_velocityverlet_MOD_velocityverlet_next
+  0.00      1.09     0.00      101     0.00     0.00  __dftbp_velocityverlet_MOD_velocityverlet_state
+  0.00      1.09     0.00       93     0.00     0.00  __dftbp_xmlutils_MOD_getfirstchildbyname
+  0.00      1.09     0.00       85     0.00     0.00  __dftbp_charmanip_MOD_trim2
+  0.00      1.09     0.00       73     0.00     0.00  __xmlf90_dom_document_MOD_createelement
+  0.00      1.09     0.00       73     0.00     0.00  __xmlf90_dom_types_MOD_destroynamednodemap
+  0.00      1.09     0.00       67     0.00     0.00  __dftbp_charmanip_MOD_getnextquotationpos
+  0.00      1.09     0.00       53     0.00     0.00  __dftbp_charmanip_MOD_unquotedscan
+  0.00      1.09     0.00       49     0.00     0.00  __dftbp_charmanip_MOD_i2c
+  0.00      1.09     0.00       34     0.00     0.00  __dftbp_hsdutils_MOD_createchild_local
+  0.00      1.09     0.00       29     0.00     0.00  __dftbp_linkedlisti1_MOD_listintr1_len
+  0.00      1.09     0.00       24     0.00     0.00  __dftbp_hsdparser_MOD_createchildnode.constprop.1
+  0.00      1.09     0.00       24     0.00     0.00  __dftbp_hsdutils_MOD_getasstring_logical
+  0.00      1.09     0.00       24     0.00     0.00  __dftbp_hsdutils_MOD_getchval_logical
+  0.00      1.09     0.00       24     0.00     0.00  __dftbp_hsdutils_MOD_setchval_logical
+  0.00      1.09     0.00       24     0.00     0.00  __xmlf90_dom_element_MOD_getattribute
+  0.00      1.09     0.00       23     0.00     0.00  __dftbp_hsdutils_MOD_getchval_node
+  0.00      1.09     0.00       17     0.00     0.00  __dftbp_hsdutils_MOD_getchild
+  0.00      1.09     0.00       16     0.00     0.00  __dftbp_linkedlisti1_MOD_listintr1_intoarray
+  0.00      1.09     0.00       16     0.00     0.00  __dftbp_tokenreader_MOD_getnexttoken_string
+  0.00      1.09     0.00       12     0.00     0.00  __dftbp_hsdutils_MOD_getfirsttextchild
+  0.00      1.09     0.00       11     0.00     0.00  __dftbp_hsdutils_MOD_setchild
+  0.00      1.09     0.00        8     0.00     0.00  __dftbp_charmanip_MOD_unquote
+  0.00      1.09     0.00        8     0.00     0.00  __dftbp_slakocont_MOD_slakocont_addtableeqgrid
+  0.00      1.09     0.00        8     0.00     0.00  __dftbp_slakoeqgrid_MOD_slakoeqgrid_getcutoff
+  0.00      1.09     0.00        8     0.00     0.00  __dftbp_slakoeqgrid_MOD_slakoeqgrid_getnintegrals
+  0.00      1.09     0.00        8     0.00     0.00  __dftbp_slakoeqgrid_MOD_slakoeqgrid_init
+  0.00      1.09     0.00        8     0.00     0.00  __xmlf90_dom_nodelist_MOD_getlength_nl
+  0.00      1.09     0.00        7     0.00     0.00  __dftbp_hsdparser_MOD_dumphsd_recursive
+  0.00      1.09     0.00        7     0.00     0.00  __dftbp_hsdutils_MOD_checknodata
+  0.00      1.09     0.00        6     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_append
+  0.00      1.09     0.00        6     0.00     0.00  __xmlf90_strings_MOD_assign_s_to_c
+  0.00      1.09     0.00        5     0.00     0.00  __dftbp_hsdutils_MOD_getchval_int
+  0.00      1.09     0.00        5     0.00     0.00  __dftbp_hsdutils_MOD_getchval_real
+  0.00      1.09     0.00        5     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_destruct
+  0.00      1.09     0.00        5     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_init
+  0.00      1.09     0.00        5     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_len
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_hsdutils2_MOD_convertbymul_real
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_hsdutils2_MOD_getnodename2
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_hsdutils_MOD_getchval_lstring
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_hsdutils_MOD_getchval_string
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_linkedlistlc0_MOD_listcharlc_append
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_linkedlistlc0_MOD_listcharlc_destruct
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_linkedlistlc0_MOD_listcharlc_get
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_linkedlistlc0_MOD_listcharlc_init
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_get
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_oldskdata_MOD_oldskdata_readfromfile
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_oldskdata_MOD_oldskdata_readsplinerep
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_parser_MOD_getfulltable.constprop.0
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_repcont_MOD_repcont_addrepspline
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_repspline_MOD_repspline_getcutoff
+  0.00      1.09     0.00        4     0.00     0.00  __dftbp_repspline_MOD_repspline_init
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_getasstring_int
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_getasstring_real
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_getchildren
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_setchval_int
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_setchval_node
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_hsdutils_MOD_setchval_real
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_mainio_MOD_initoutputfile
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_ranlux_MOD_ranlux_init_default
+  0.00      1.09     0.00        3     0.00     0.00  __dftbp_xmlutils_MOD_getchildrenbyname
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_fileid_MOD_getfileid
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_fileregistry_MOD_tfileregistry_register
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_formatout_MOD_clearfile_fname
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_hsdutils2_MOD_getmodifierindex
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_linkedlisti0_MOD_listint_len
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_linkedlisti1_MOD_listintr1_append
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_linkedlisti1_MOD_listintr1_destruct
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_linkedlisti1_MOD_listintr1_init
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_randomgenpool_MOD_getgenerator
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_ranlux_MOD_ranlux_getrandomnumber
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_slakocont_MOD_slakocont_getcutoff
+  0.00      1.09     0.00        2     0.00     0.00  __dftbp_slakocont_MOD_slakocont_init
+  0.00      1.09     0.00        2     0.00     0.00  __xmlf90_dom_types_MOD_destroynodelist
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_dummytherm_MOD_dummythermostat_getinitvelos
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_dummytherm_MOD_dummythermostat_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_elecsolvers_MOD_telectronicsolver_getsolvername
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_elecsolvers_MOD_telectronicsolver_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_energies_MOD_energies_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_environment_MOD_tenvironment_destruct
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_environment_MOD_tenvironment_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_environment_MOD_tenvironment_initglobaltimer
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_fileregistry_MOD_tfileregistry_closeall
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_fileregistry_MOD_tfileregistry_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_formatout_MOD_printdftbheader
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_globalenv_MOD_destructglobalenv
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_globalenv_MOD_initglobalenv
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdhelpers_MOD_dopostparsejobs
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdhelpers_MOD_parsehsdinput
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdparser_MOD_dumphsd_file
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdparser_MOD_dumphsd_opened
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdparser_MOD_parse_recursive.constprop.0
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdparser_MOD_parsehsd_file
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdparser_MOD_parsehsd_opened
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdutils2_MOD_setunprocessed
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdutils2_MOD_warnunprocessednodes
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdutils_MOD_convatomrangetoint
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_hsdutils_MOD_setchval_char
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_allocatedensematrices
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_destructprogramvariables
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_ensuresolvercompatibility
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_getdensedesccommon
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_initarrays
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_initoutputfiles
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_initprogram_MOD_initprogramvariables
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_linkedlisti0_MOD_listint_asarray
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_linkedlisti0_MOD_listint_destruct
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_linkedlisti0_MOD_listint_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_linkedlists0_MOD_liststring_asarray
+  0.00      1.09     0.00        1     0.00   321.92  __dftbp_main_MOD_rundftbplus
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mainio_MOD_writedetailedout5
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mainio_MOD_writefinaldriverstatus
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mainio_MOD_writemdout3
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mdcommon_MOD_mdcommon_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mdcommon_MOD_mdcommon_rescaletokt
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mdcommon_MOD_mdcommon_restframe
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_mdintegrator_MOD_mdintegrator_init_vverlet
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_nonscc_MOD_nonsccdiff_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_parallelks_MOD_tparallelks_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_parser_MOD_parsehsdtree
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_parser_MOD_readanalysis
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_parser_MOD_readhsdfile
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_parser_MOD_readskfiles
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_periodic_MOD_buildsquaredatomindex
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_periodic_MOD_init_tneighbourlist
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_potentials_MOD_potentials_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_randomgenpool_MOD___final_dftbp_randomgenpool_Orandomgenpool
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_randomgenpool_MOD_randomgenpool_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_repcont_MOD_repcont_getcutoff
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_repcont_MOD_repcont_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_sccinit_MOD_initqfromshellchrg
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_taggedoutput_MOD_ttaggedwriter_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_thermostat_MOD_thermostat_getinitvelocities
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_thermostat_MOD_thermostat_init_dummy
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_timerarray_MOD_reset
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_timerarray_MOD_ttimerarray_init
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_timerarray_MOD_writetimings
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_typegeometry_MOD_geometry_normalize
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_typegeometryhsd_MOD_readtgeometrygen
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_velocityverlet_MOD_velocityverlet_themostats
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_xmlutils_MOD_gettagswithoutattr_recursive
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_xmlutils_MOD_gettagswithoutattribute
+  0.00      1.09     0.00        1     0.00     0.00  __dftbp_xmlutils_MOD_removenodes
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_dom_document_MOD_createdocumentnode
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_dom_element_MOD_concatenatetext
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_dom_element_MOD_normalize
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_dom_element_MOD_removeattribute
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_dom_namednodemap_MOD_removenameditem
+  0.00      1.09     0.00        1     0.00     0.00  __xmlf90_strings_MOD_resize_string
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.92% of 1.09 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     70.0    0.04    0.72                 __dftbp_elecconstraints_MOD_constrainq [1]
+                0.11    0.61   34670/34670       __dftbp_nonscc_MOD_getfirstderiv [2]
+-----------------------------------------------
+                0.11    0.61   34670/34670       __dftbp_elecconstraints_MOD_constrainq [1]
+[2]     66.3    0.11    0.61   34670         __dftbp_nonscc_MOD_getfirstderiv [2]
+                0.00    0.58  205626/243231      __dftbp_slakocont_MOD_slakocont_getskintegrals [4]
+                0.03    0.00  197155/232027      __dftbp_sk_MOD_rotateh0 [16]
+                0.00    0.00   42934/43136       __dftbp_slakocont_MOD_slakocont_getmintegrals [40]
+-----------------------------------------------
+                0.08    0.61  319472/319472      __dftbp_slakocont_MOD_slakocont_getskintegrals [4]
+[3]     62.8    0.08    0.61  319472         __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals [3]
+                0.61    0.00  297021/297021      __dftbp_interpolation_MOD_polyinteru2 [5]
+                0.00    0.00   19769/19769       __dftbp_interpolation_MOD_poly5tozero [42]
+-----------------------------------------------
+                0.00    0.11   37605/243231      __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.00    0.58  205626/243231      __dftbp_nonscc_MOD_getfirstderiv [2]
+[4]     62.8    0.00    0.69  243231         __dftbp_slakocont_MOD_slakocont_getskintegrals [4]
+                0.08    0.61  319472/319472      __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals [3]
+-----------------------------------------------
+                0.61    0.00  297021/297021      __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals [3]
+[5]     55.5    0.61    0.00  297021         __dftbp_interpolation_MOD_polyinteru2 [5]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]     29.5    0.00    0.32                 MAIN__ [6]
+                0.00    0.32       1/1           __dftbp_main_MOD_rundftbplus [7]
+                0.00    0.00       1/1           __dftbp_globalenv_MOD_initglobalenv [218]
+                0.00    0.00       1/1           __dftbp_formatout_MOD_printdftbheader [216]
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00       1/1           __dftbp_fileregistry_MOD_tfileregistry_init [215]
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_init [212]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_destructprogramvariables [231]
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_destruct [211]
+                0.00    0.00       1/1           __dftbp_globalenv_MOD_destructglobalenv [217]
+-----------------------------------------------
+                0.00    0.32       1/1           MAIN__ [6]
+[7]     29.5    0.00    0.32       1         __dftbp_main_MOD_rundftbplus [7]
+                0.00    0.28     101/101         __dftbp_main_MOD_processgeometry [8]
+                0.00    0.04     202/808         __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_printgeostepinfo [111]
+                0.00    0.00     101/1112        __dftbp_timerarray_MOD_stoptimer [51]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writedetailedout4 [117]
+                0.00    0.00       2/1114        __dftbp_timerarray_MOD_starttimer [50]
+                0.00    0.00       1/1           __dftbp_mainio_MOD_writefinaldriverstatus [242]
+                0.00    0.00       1/1           __dftbp_mainio_MOD_writedetailedout5 [241]
+                0.00    0.00       1/1           __dftbp_mainio_MOD_writemdout3 [243]
+-----------------------------------------------
+                0.00    0.28     101/101         __dftbp_main_MOD_rundftbplus [7]
+[8]     25.7    0.00    0.28     101         __dftbp_main_MOD_processgeometry [8]
+                0.01    0.12     606/808         __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.06     101/101         __dftbp_nonscc_MOD_buildh0 [13]
+                0.00    0.06     101/101         __dftbp_nonscc_MOD_builds [14]
+                0.03    0.00     101/202         __dftbp_populations_MOD_mullikenperorbital [15]
+                0.01    0.00     101/101         __dftbp_repulsive_MOD_geterep [22]
+                0.01    0.00     101/101         __dftbp_mainio_MOD_writedetailedout1 [21]
+                0.00    0.00     707/1114        __dftbp_timerarray_MOD_starttimer [50]
+                0.00    0.00     606/1112        __dftbp_timerarray_MOD_stoptimer [51]
+                0.00    0.00     202/202         _init [87]
+                0.00    0.00     101/101         __dftbp_elecsolvers_MOD_telectronicsolver_reset [101]
+                0.00    0.00     101/101         __dftbp_elecsolvers_MOD_telectronicsolver_updateelectronictemp [102]
+                0.00    0.00     101/101         __dftbp_shift_MOD_addatom_shell [126]
+                0.00    0.00     101/101         __dftbp_shift_MOD_addshell_block [127]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writebandout [113]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_printenergies [110]
+                0.00    0.00     101/101         __dftbp_spin_MOD_qm2ud2 [128]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_opendetailedout [109]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writedetailedout2 [115]
+                0.00    0.00     101/101         __dftbp_thermostat_MOD_thermostat_state [130]
+                0.00    0.00     101/101         __dftbp_velocityverlet_MOD_velocityverlet_state [133]
+                0.00    0.00     101/101         __dftbp_mdintegrator_MOD_mdintegrator_state [121]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writemdout1 [118]
+-----------------------------------------------
+                                 101             __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.04     202/808         __dftbp_main_MOD_rundftbplus [7]
+                0.01    0.12     606/808         __dftbp_main_MOD_processgeometry [8]
+[9]     15.1    0.01    0.16     808+101     __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.06     101/101         __dftbp_periodic_MOD_updateneighbourlistandspecies [12]
+                0.04    0.00     101/101         __dftbp_sparse2dense_MOD_packhs_real [17]
+                0.03    0.00     202/202         __dftbp_sparse2dense_MOD_unpackhs_real [18]
+                0.00    0.03     101/101         __dftbp_populations_MOD_mullikenperatom [19]
+                0.00    0.00     101/101         __dftbp_etemp_MOD_efilling [24]
+                0.00    0.00     404/1114        __dftbp_timerarray_MOD_starttimer [50]
+                0.00    0.00     404/1112        __dftbp_timerarray_MOD_stoptimer [51]
+                0.00    0.00     202/202         __dftbp_periodic_MOD_getnrofneighboursforall [84]
+                0.00    0.00     101/101         __dftbp_periodic_MOD_getsparsedescriptor [122]
+                0.00    0.00     101/101         __dftbp_shift_MOD_add_shift_block [125]
+                0.00    0.00     101/101         __dftbp_spin_MOD_ud2qm2 [129]
+                0.00    0.00     101/101         __dftbp_eigenvects_MOD_diagdenserealmtx [100]
+                0.00    0.00     101/101         __dftbp_densitymatrix_MOD_fulldensitymatrix_real [98]
+                0.00    0.00     101/101         __dftbp_mdintegrator_MOD_mdintegrator_next [120]
+                0.00    0.00     101/203         __dftbp_mdcommon_MOD_evalke [82]
+                0.00    0.00     101/102         __dftbp_mdcommon_MOD_mdcommon_evalkt [97]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_printmdinfo [112]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writemdout2 [119]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writecurrentgeometry [114]
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writedetailedout3 [116]
+                                 101             __dftbp_main_MOD_hasstopfile [9]
+-----------------------------------------------
+                0.00    0.06     101/202         __dftbp_nonscc_MOD_builds [14]
+                0.00    0.06     101/202         __dftbp_nonscc_MOD_buildh0 [13]
+[10]    10.3    0.00    0.11     202         __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.00    0.11   37605/243231      __dftbp_slakocont_MOD_slakocont_getskintegrals [4]
+                0.01    0.00   34872/232027      __dftbp_sk_MOD_rotateh0 [16]
+                0.00    0.00     202/43136       __dftbp_slakocont_MOD_slakocont_getmintegrals [40]
+-----------------------------------------------
+                0.04    0.02     101/101         __dftbp_periodic_MOD_updateneighbourlistandspecies [12]
+[11]     5.5    0.04    0.02     101         __dftbp_periodic_MOD_updateneighbourlist [11]
+                0.02    0.00   16867/16968       __dftbp_sorting_MOD_index_heap_sort_real [20]
+                0.00    0.00     101/101         __dftbp_periodic_MOD_reallocatearrays1 [123]
+-----------------------------------------------
+                0.00    0.06     101/101         __dftbp_main_MOD_hasstopfile [9]
+[12]     5.5    0.00    0.06     101         __dftbp_periodic_MOD_updateneighbourlistandspecies [12]
+                0.04    0.02     101/101         __dftbp_periodic_MOD_updateneighbourlist [11]
+-----------------------------------------------
+                0.00    0.06     101/101         __dftbp_main_MOD_processgeometry [8]
+[13]     5.1    0.00    0.06     101         __dftbp_nonscc_MOD_buildh0 [13]
+                0.00    0.06     101/202         __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.00    0.00     101/303         __dftbp_schedule_MOD_distributerangeinchunks [67]
+                0.00    0.00     101/202         __dftbp_schedule_MOD_assembler1chunks [85]
+-----------------------------------------------
+                0.00    0.06     101/101         __dftbp_main_MOD_processgeometry [8]
+[14]     5.1    0.00    0.06     101         __dftbp_nonscc_MOD_builds [14]
+                0.00    0.06     101/202         __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.00    0.00     101/303         __dftbp_schedule_MOD_distributerangeinchunks [67]
+                0.00    0.00     101/202         __dftbp_schedule_MOD_assembler1chunks [85]
+-----------------------------------------------
+                0.03    0.00     101/202         __dftbp_main_MOD_processgeometry [8]
+                0.03    0.00     101/202         __dftbp_populations_MOD_mullikenperatom [19]
+[15]     4.6    0.05    0.00     202         __dftbp_populations_MOD_mullikenperorbital [15]
+-----------------------------------------------
+                0.01    0.00   34872/232027      __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.03    0.00  197155/232027      __dftbp_nonscc_MOD_getfirstderiv [2]
+[16]     3.7    0.04    0.00  232027         __dftbp_sk_MOD_rotateh0 [16]
+-----------------------------------------------
+                0.04    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[17]     3.7    0.04    0.00     101         __dftbp_sparse2dense_MOD_packhs_real [17]
+-----------------------------------------------
+                0.03    0.00     202/202         __dftbp_main_MOD_hasstopfile [9]
+[18]     2.8    0.03    0.00     202         __dftbp_sparse2dense_MOD_unpackhs_real [18]
+-----------------------------------------------
+                0.00    0.03     101/101         __dftbp_main_MOD_hasstopfile [9]
+[19]     2.3    0.00    0.03     101         __dftbp_populations_MOD_mullikenperatom [19]
+                0.03    0.00     101/202         __dftbp_populations_MOD_mullikenperorbital [15]
+-----------------------------------------------
+                0.00    0.00     101/16968       __dftbp_etemp_MOD_efilling [24]
+                0.02    0.00   16867/16968       __dftbp_periodic_MOD_updateneighbourlist [11]
+[20]     1.8    0.02    0.00   16968         __dftbp_sorting_MOD_index_heap_sort_real [20]
+-----------------------------------------------
+                0.01    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[21]     0.9    0.01    0.00     101         __dftbp_mainio_MOD_writedetailedout1 [21]
+                0.00    0.00   16867/16869       __dftbp_orbitals_MOD_getshellnames [43]
+                0.00    0.00     202/202         __dftbp_spin_MOD_qm2ud3 [86]
+-----------------------------------------------
+                0.01    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[22]     0.9    0.01    0.00     101         __dftbp_repulsive_MOD_geterep [22]
+                0.00    0.00   43719/43719       __dftbp_repspline_MOD_repspline_getenergy [38]
+                0.00    0.00   43719/43719       __dftbp_repcont_MOD_repcont_getenergy [36]
+-----------------------------------------------
+                                                 <spontaneous>
+[23]     0.5    0.01    0.00                 __dftbp_interpolation_MOD_polyinter [23]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[24]     0.0    0.00    0.00     101         __dftbp_etemp_MOD_efilling [24]
+                0.00    0.00     101/16968       __dftbp_sorting_MOD_index_heap_sort_real [20]
+                0.00    0.00     101/101         __dftbp_etemp_MOD_derivelectroncount [103]
+                0.00    0.00     101/101         __dftbp_etemp_MOD_electronfill [104]
+-----------------------------------------------
+[25]     0.0    0.00    0.00     178+303     <cycle 1 as a whole> [25]
+                0.00    0.00     408+63          __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+                0.00    0.00      73             __xmlf90_dom_types_MOD_destroynamednodemap <cycle 1> [137]
+-----------------------------------------------
+                0.00    0.00   18238/70210       __dftbp_repspline_MOD_repspline_getenergyderiv [39]
+                0.00    0.00   18238/70210       __dftbp_repspline_MOD_repspline_getenergy [38]
+                0.00    0.00   33734/70210       __dftbp_periodic_MOD_getnrofneighbours [41]
+[35]     0.0    0.00    0.00   70210         __dftbp_bisect_MOD_bisection_real [35]
+-----------------------------------------------
+                0.00    0.00   43719/43719       __dftbp_repulsive_MOD_geterep [22]
+[36]     0.0    0.00    0.00   43719         __dftbp_repcont_MOD_repcont_getenergy [36]
+-----------------------------------------------
+                0.00    0.00   43719/43719       __dftbp_repulsive_MOD_geterepderiv [1041]
+[37]     0.0    0.00    0.00   43719         __dftbp_repcont_MOD_repcont_getenergyderiv [37]
+                0.00    0.00   43719/43719       __dftbp_repspline_MOD_repspline_getenergyderiv [39]
+-----------------------------------------------
+                0.00    0.00   43719/43719       __dftbp_repulsive_MOD_geterep [22]
+[38]     0.0    0.00    0.00   43719         __dftbp_repspline_MOD_repspline_getenergy [38]
+                0.00    0.00   18238/70210       __dftbp_bisect_MOD_bisection_real [35]
+-----------------------------------------------
+                0.00    0.00   43719/43719       __dftbp_repcont_MOD_repcont_getenergyderiv [37]
+[39]     0.0    0.00    0.00   43719         __dftbp_repspline_MOD_repspline_getenergyderiv [39]
+                0.00    0.00   18238/70210       __dftbp_bisect_MOD_bisection_real [35]
+-----------------------------------------------
+                0.00    0.00     202/43136       __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [10]
+                0.00    0.00   42934/43136       __dftbp_nonscc_MOD_getfirstderiv [2]
+[40]     0.0    0.00    0.00   43136         __dftbp_slakocont_MOD_slakocont_getmintegrals [40]
+-----------------------------------------------
+                0.00    0.00   33734/33734       __dftbp_periodic_MOD_getnrofneighboursforall [84]
+[41]     0.0    0.00    0.00   33734         __dftbp_periodic_MOD_getnrofneighbours [41]
+                0.00    0.00   33734/70210       __dftbp_bisect_MOD_bisection_real [35]
+-----------------------------------------------
+                0.00    0.00   19769/19769       __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals [3]
+[42]     0.0    0.00    0.00   19769         __dftbp_interpolation_MOD_poly5tozero [42]
+-----------------------------------------------
+                0.00    0.00       2/16869       __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00   16867/16869       __dftbp_mainio_MOD_writedetailedout1 [21]
+[43]     0.0    0.00    0.00   16869         __dftbp_orbitals_MOD_getshellnames [43]
+-----------------------------------------------
+                0.00    0.00       1/1401        __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       2/1401        __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       2/1401        __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       2/1401        __xmlf90_dom_document_MOD_createdocumentnode [274]
+                0.00    0.00       3/1401        __dftbp_hsdutils_MOD_getasstring_int [184]
+                0.00    0.00       3/1401        __dftbp_hsdutils_MOD_getasstring_real [185]
+                0.00    0.00       3/1401        __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00       4/1401        __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00      11/1401        __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00      24/1401        __dftbp_hsdutils_MOD_setchval_logical [146]
+                0.00    0.00      24/1401        __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00      34/1401        __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     146/1401        __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00     240/1401        __xmlf90_dom_node_MOD_setnodevalue [78]
+                0.00    0.00     422/1401        __xmlf90_dom_document_MOD_createtextnode [81]
+                0.00    0.00     480/1401        __xmlf90_dom_document_MOD_createattribute [74]
+[44]     0.0    0.00    0.00    1401         __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00       5/1270        __xmlf90_dom_namednodemap_MOD_removenameditem [278]
+                0.00    0.00     435/1270        __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00     830/1270        __xmlf90_dom_namednodemap_MOD_getnameditem [66]
+[45]     0.0    0.00    0.00    1270         __xmlf90_strings_MOD_s_eq_c [45]
+-----------------------------------------------
+                0.00    0.00       1/1216        __dftbp_timerarray_MOD_reset [265]
+                0.00    0.00    1215/1216        __dftbp_timerarray_MOD_starttimer [50]
+[46]     0.0    0.00    0.00    1216         __dftbp_timer_MOD_start [46]
+-----------------------------------------------
+                0.00    0.00       1/1214        __dftbp_timerarray_MOD_writetimings [267]
+                0.00    0.00    1213/1214        __dftbp_timerarray_MOD_stoptimer [51]
+[47]     0.0    0.00    0.00    1214         __dftbp_timer_MOD_getcputime [47]
+-----------------------------------------------
+                0.00    0.00       1/1214        __dftbp_timerarray_MOD_writetimings [267]
+                0.00    0.00    1213/1214        __dftbp_timerarray_MOD_stoptimer [51]
+[48]     0.0    0.00    0.00    1214         __dftbp_timer_MOD_getwallclocktime [48]
+-----------------------------------------------
+                0.00    0.00    1213/1213        __dftbp_timerarray_MOD_stoptimer [51]
+[49]     0.0    0.00    0.00    1213         __dftbp_timer_MOD_stoptimer [49]
+-----------------------------------------------
+                0.00    0.00       1/1114        __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00       2/1114        __dftbp_main_MOD_rundftbplus [7]
+                0.00    0.00     404/1114        __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.00     707/1114        __dftbp_main_MOD_processgeometry [8]
+[50]     0.0    0.00    0.00    1114         __dftbp_timerarray_MOD_starttimer [50]
+                0.00    0.00    1215/1216        __dftbp_timer_MOD_start [46]
+-----------------------------------------------
+                0.00    0.00       1/1112        __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00     101/1112        __dftbp_main_MOD_rundftbplus [7]
+                0.00    0.00     404/1112        __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.00     606/1112        __dftbp_main_MOD_processgeometry [8]
+[51]     0.0    0.00    0.00    1112         __dftbp_timerarray_MOD_stoptimer [51]
+                0.00    0.00    1213/1213        __dftbp_timer_MOD_stoptimer [49]
+                0.00    0.00    1213/1214        __dftbp_timer_MOD_getcputime [47]
+                0.00    0.00    1213/1214        __dftbp_timer_MOD_getwallclocktime [48]
+-----------------------------------------------
+                0.00    0.00       7/1031        __dftbp_hsdparser_MOD_dumphsd_opened [222]
+                0.00    0.00     115/1031        __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00     158/1031        __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00     168/1031        __xmlf90_dom_element_MOD_concatenatetext [275]
+                0.00    0.00     169/1031        __xmlf90_dom_element_MOD_normalize [276]
+                0.00    0.00     414/1031        __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+[52]     0.0    0.00    0.00    1031         __xmlf90_dom_node_MOD_getnextsibling [52]
+-----------------------------------------------
+                0.00    0.00       7/954         __dftbp_hsdutils_MOD_checknodata [161]
+                0.00    0.00      85/954         __dftbp_charmanip_MOD_trim2 [135]
+                0.00    0.00     862/954         __dftbp_tokenreader_MOD_getnexttoken_local [55]
+[53]     0.0    0.00    0.00     954         __dftbp_charmanip_MOD_complementaryscan [53]
+-----------------------------------------------
+                0.00    0.00       1/884         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00       1/884         __xmlf90_dom_element_MOD_concatenatetext [275]
+                0.00    0.00       4/884         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00      11/884         __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      12/884         __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00      30/884         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     159/884         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00     231/884         __xmlf90_dom_namednodemap_MOD_append_nnm [79]
+                0.00    0.00     435/884         __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+[54]     0.0    0.00    0.00     884         __xmlf90_strings_MOD_assign_s_to_s [54]
+-----------------------------------------------
+                0.00    0.00      16/862         __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00     342/862         __dftbp_tokenreader_MOD_getnexttoken_integer [64]
+                0.00    0.00     504/862         __dftbp_tokenreader_MOD_getnexttoken_real [58]
+[55]     0.0    0.00    0.00     862         __dftbp_tokenreader_MOD_getnexttoken_local [55]
+                0.00    0.00     862/954         __dftbp_charmanip_MOD_complementaryscan [53]
+                0.00    0.00      11/53          __dftbp_charmanip_MOD_unquotedscan [139]
+-----------------------------------------------
+                0.00    0.00       1/525         __xmlf90_dom_document_MOD_createdocumentnode [274]
+                0.00    0.00      73/525         __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00     211/525         __xmlf90_dom_document_MOD_createtextnode [81]
+                0.00    0.00     240/525         __xmlf90_dom_document_MOD_createattribute [74]
+[56]     0.0    0.00    0.00     525         __xmlf90_dom_types_MOD_createnode [56]
+-----------------------------------------------
+                0.00    0.00       2/509         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       2/509         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       3/509         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00     502/509         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+[57]     0.0    0.00    0.00     509         __dftbp_hsdutils_MOD_checkerror [57]
+-----------------------------------------------
+                0.00    0.00       1/504         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       2/504         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00     501/504         __dftbp_tokenreader_MOD_getnexttoken_realr1 [96]
+[58]     0.0    0.00    0.00     504         __dftbp_tokenreader_MOD_getnexttoken_real [58]
+                0.00    0.00     504/862         __dftbp_tokenreader_MOD_getnexttoken_local [55]
+-----------------------------------------------
+                0.00    0.00       1/494         __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00       3/494         __dftbp_hsdutils_MOD_setchval_int [187]
+                0.00    0.00       3/494         __dftbp_hsdutils_MOD_setchval_real [189]
+                0.00    0.00       4/494         __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00       4/494         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       4/494         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       6/494         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       8/494         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00       9/494         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00      12/494         __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00      22/494         __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      24/494         __dftbp_hsdutils_MOD_setchval_logical [146]
+                0.00    0.00      64/494         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     161/494         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00     169/494         __xmlf90_dom_element_MOD_normalize [276]
+[59]     0.0    0.00    0.00     494         __xmlf90_strings_MOD_len_s [59]
+-----------------------------------------------
+                0.00    0.00     218/485         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00     267/485         __dftbp_charmanip_MOD_getfirstoccurance [80]
+[60]     0.0    0.00    0.00     485         __dftbp_charmanip_MOD_unquotedindex [60]
+                0.00    0.00      48/67          __dftbp_charmanip_MOD_getnextquotationpos [138]
+-----------------------------------------------
+                0.00    0.00      10/475         __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      30/475         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     435/475         __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+[61]     0.0    0.00    0.00     475         __xmlf90_dom_node_MOD_getnodename [61]
+-----------------------------------------------
+                                  63             __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+                                 230             __xmlf90_dom_types_MOD_destroynamednodemap <cycle 1> [137]
+                0.00    0.00       1/178         __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+                0.00    0.00       9/178         __xmlf90_dom_namednodemap_MOD_setnameditem [77]
+                0.00    0.00     168/178         __xmlf90_dom_element_MOD_concatenatetext [275]
+[62]     0.0    0.00    0.00     408+63      __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+                                  73             __xmlf90_dom_types_MOD_destroynamednodemap <cycle 1> [137]
+                                  63             __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+-----------------------------------------------
+                0.00    0.00     367/367         __xmlf90_dom_namednodemap_MOD_setnameditem [77]
+[63]     0.0    0.00    0.00     367         __xmlf90_strings_MOD_s_eq_s [63]
+-----------------------------------------------
+                0.00    0.00       2/342         __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00       2/342         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00     338/342         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+[64]     0.0    0.00    0.00     342         __dftbp_tokenreader_MOD_getnexttoken_integer [64]
+                0.00    0.00     342/862         __dftbp_tokenreader_MOD_getnexttoken_local [55]
+-----------------------------------------------
+                0.00    0.00     334/334         __dftbp_mdcommon_MOD_maxwellboltzmann [95]
+[65]     0.0    0.00    0.00     334         __dftbp_mdcommon_MOD_boxmueller [65]
+-----------------------------------------------
+                0.00    0.00      24/305         __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00      73/305         __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00     208/305         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[66]     0.0    0.00    0.00     305         __xmlf90_dom_namednodemap_MOD_getnameditem [66]
+                0.00    0.00     830/1270        __xmlf90_strings_MOD_s_eq_c [45]
+-----------------------------------------------
+                0.00    0.00     101/303         __dftbp_nonscc_MOD_builds [14]
+                0.00    0.00     101/303         __dftbp_nonscc_MOD_buildh0 [13]
+                0.00    0.00     101/303         __dftbp_forces_MOD_derivative_nonscc [597]
+[67]     0.0    0.00    0.00     303         __dftbp_schedule_MOD_distributerangeinchunks [67]
+-----------------------------------------------
+                0.00    0.00      11/303         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      12/303         __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00     115/303         __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00     165/303         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[68]     0.0    0.00    0.00     303         __xmlf90_dom_node_MOD_getnodetype [68]
+-----------------------------------------------
+                0.00    0.00       1/302         __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00       3/302         __dftbp_hsdutils_MOD_setchval_int [187]
+                0.00    0.00       3/302         __dftbp_hsdutils_MOD_setchval_real [189]
+                0.00    0.00       4/302         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       4/302         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       4/302         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       6/302         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       8/302         __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00      22/302         __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      24/302         __dftbp_hsdutils_MOD_setchval_logical [146]
+                0.00    0.00      64/302         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     159/302         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[69]     0.0    0.00    0.00     302         __xmlf90_strings_MOD_s_to_c [69]
+-----------------------------------------------
+                0.00    0.00       2/295         __dftbp_hsdparser_MOD_dumphsd_opened [222]
+                0.00    0.00       3/295         __dftbp_xmlutils_MOD_getchildrenbyname [192]
+                0.00    0.00       9/295         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      12/295         __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00      34/295         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00      72/295         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00      73/295         __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00      90/295         __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+[70]     0.0    0.00    0.00     295         __xmlf90_dom_node_MOD_getfirstchild [70]
+-----------------------------------------------
+                0.00    0.00       1/284         __dftbp_hsdparser_MOD_parsehsd_opened [225]
+                0.00    0.00       3/284         __dftbp_hsdutils_MOD_setchval_node [188]
+                0.00    0.00      11/284         __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      24/284         __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      65/284         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     180/284         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[71]     0.0    0.00    0.00     284         __xmlf90_dom_node_MOD_appendchild [71]
+-----------------------------------------------
+                0.00    0.00      73/281         __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00     208/281         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[72]     0.0    0.00    0.00     281         __xmlf90_dom_element_MOD_getattributenode [72]
+-----------------------------------------------
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattribute [75]
+[73]     0.0    0.00    0.00     240         __xmlf90_dom_attribute_MOD_attrib_setvalue [73]
+-----------------------------------------------
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattribute [75]
+[74]     0.0    0.00    0.00     240         __xmlf90_dom_document_MOD_createattribute [74]
+                0.00    0.00     480/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00     240/525         __xmlf90_dom_types_MOD_createnode [56]
+-----------------------------------------------
+                0.00    0.00       2/240         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       3/240         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       4/240         __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00       4/240         __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00       7/240         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00      21/240         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      27/240         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00      30/240         __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      68/240         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00      74/240         __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+[75]     0.0    0.00    0.00     240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00     240/240         __xmlf90_dom_document_MOD_createattribute [74]
+                0.00    0.00     240/240         __xmlf90_dom_node_MOD_setnodevalue [78]
+                0.00    0.00     240/240         __xmlf90_dom_attribute_MOD_attrib_setvalue [73]
+                0.00    0.00     240/240         __xmlf90_dom_namednodemap_MOD_setnameditem [77]
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattributenode [76]
+-----------------------------------------------
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattribute [75]
+[76]     0.0    0.00    0.00     240         __xmlf90_dom_element_MOD_setattributenode [76]
+-----------------------------------------------
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattribute [75]
+[77]     0.0    0.00    0.00     240         __xmlf90_dom_namednodemap_MOD_setnameditem [77]
+                0.00    0.00     367/367         __xmlf90_strings_MOD_s_eq_s [63]
+                0.00    0.00     231/231         __xmlf90_dom_namednodemap_MOD_append_nnm [79]
+                0.00    0.00       9/178         __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+-----------------------------------------------
+                0.00    0.00     240/240         __xmlf90_dom_element_MOD_setattribute [75]
+[78]     0.0    0.00    0.00     240         __xmlf90_dom_node_MOD_setnodevalue [78]
+                0.00    0.00     240/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00     231/231         __xmlf90_dom_namednodemap_MOD_setnameditem [77]
+[79]     0.0    0.00    0.00     231         __xmlf90_dom_namednodemap_MOD_append_nnm [79]
+                0.00    0.00     231/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+-----------------------------------------------
+                0.00    0.00     218/218         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[80]     0.0    0.00    0.00     218         __dftbp_charmanip_MOD_getfirstoccurance [80]
+                0.00    0.00     267/485         __dftbp_charmanip_MOD_unquotedindex [60]
+-----------------------------------------------
+                0.00    0.00      31/211         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00     180/211         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[81]     0.0    0.00    0.00     211         __xmlf90_dom_document_MOD_createtextnode [81]
+                0.00    0.00     422/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00     211/525         __xmlf90_dom_types_MOD_createnode [56]
+-----------------------------------------------
+                0.00    0.00     101/203         __dftbp_main_MOD_hasstopfile [9]
+                0.00    0.00     102/203         __dftbp_mdcommon_MOD_mdcommon_evalkt [97]
+[82]     0.0    0.00    0.00     203         __dftbp_mdcommon_MOD_evalke [82]
+-----------------------------------------------
+                0.00    0.00     101/202         __dftbp_densitymatrix_MOD_fullenergydensitymatrix_real [373]
+                0.00    0.00     101/202         __dftbp_densitymatrix_MOD_fulldensitymatrix_real [98]
+[83]     0.0    0.00    0.00     202         __dftbp_blasroutines_MOD_herk_dble [83]
+-----------------------------------------------
+                0.00    0.00     202/202         __dftbp_main_MOD_hasstopfile [9]
+[84]     0.0    0.00    0.00     202         __dftbp_periodic_MOD_getnrofneighboursforall [84]
+                0.00    0.00   33734/33734       __dftbp_periodic_MOD_getnrofneighbours [41]
+-----------------------------------------------
+                0.00    0.00     101/202         __dftbp_nonscc_MOD_builds [14]
+                0.00    0.00     101/202         __dftbp_nonscc_MOD_buildh0 [13]
+[85]     0.0    0.00    0.00     202         __dftbp_schedule_MOD_assembler1chunks [85]
+-----------------------------------------------
+                0.00    0.00     202/202         __dftbp_mainio_MOD_writedetailedout1 [21]
+[86]     0.0    0.00    0.00     202         __dftbp_spin_MOD_qm2ud3 [86]
+-----------------------------------------------
+                0.00    0.00     202/202         __dftbp_main_MOD_processgeometry [8]
+[87]     0.0    0.00    0.00     202         _init [87]
+-----------------------------------------------
+                0.00    0.00     199/199         __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[88]     0.0    0.00    0.00     199         __dftbp_charmanip_MOD_convertwhitespaces [88]
+-----------------------------------------------
+                0.00    0.00       1/171         __dftbp_hsdparser_MOD_parsehsd_opened [225]
+                0.00    0.00       2/171         __dftbp_hsdutils2_MOD_getmodifierindex [196]
+                0.00    0.00       3/171         __dftbp_hsdutils_MOD_getchildren [186]
+                0.00    0.00       4/171         __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00       4/171         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       5/171         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       5/171         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00      17/171         __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00      22/171         __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      24/171         __dftbp_hsdutils_MOD_getchval_logical [145]
+                0.00    0.00      24/171         __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      26/171         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      34/171         __dftbp_hsdutils_MOD_createchild_local [141]
+[89]     0.0    0.00    0.00     171         __dftbp_charmanip_MOD_tolower [89]
+-----------------------------------------------
+                0.00    0.00      12/171         __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00     159/171         __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[90]     0.0    0.00    0.00     171         __xmlf90_dom_node_MOD_getnodevalue [90]
+-----------------------------------------------
+                0.00    0.00       2/170         __dftbp_ranlux_MOD_ranlux_getrandomnumber [202]
+                0.00    0.00     168/170         __dftbp_ranlux_MOD_ranlux_getrandomvector [93]
+[91]     0.0    0.00    0.00     170         __dftbp_ranlux_MOD___copy_dftbp_ranlux_Oranlux [91]
+-----------------------------------------------
+                0.00    0.00     169/169         __xmlf90_dom_element_MOD_concatenatetext [275]
+[92]     0.0    0.00    0.00     169         __xmlf90_strings_MOD_append_to_string_s [92]
+-----------------------------------------------
+                0.00    0.00       1/168         __dftbp_randomgenpool_MOD_getgenerator [201]
+                0.00    0.00     167/168         __dftbp_mdcommon_MOD_maxwellboltzmann [95]
+[93]     0.0    0.00    0.00     168         __dftbp_ranlux_MOD_ranlux_getrandomvector [93]
+                0.00    0.00     168/170         __dftbp_ranlux_MOD___copy_dftbp_ranlux_Oranlux [91]
+-----------------------------------------------
+                0.00    0.00     167/167         __dftbp_hsdutils_MOD_convatomrangetoint [228]
+[94]     0.0    0.00    0.00     167         __dftbp_linkedlisti0_MOD_listint_append [94]
+-----------------------------------------------
+                0.00    0.00     167/167         __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [206]
+[95]     0.0    0.00    0.00     167         __dftbp_mdcommon_MOD_maxwellboltzmann [95]
+                0.00    0.00     334/334         __dftbp_mdcommon_MOD_boxmueller [65]
+                0.00    0.00     167/168         __dftbp_ranlux_MOD_ranlux_getrandomvector [93]
+-----------------------------------------------
+                0.00    0.00     167/167         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+[96]     0.0    0.00    0.00     167         __dftbp_tokenreader_MOD_getnexttoken_realr1 [96]
+                0.00    0.00     501/504         __dftbp_tokenreader_MOD_getnexttoken_real [58]
+-----------------------------------------------
+                0.00    0.00       1/102         __dftbp_mdcommon_MOD_mdcommon_rescaletokt [245]
+                0.00    0.00     101/102         __dftbp_main_MOD_hasstopfile [9]
+[97]     0.0    0.00    0.00     102         __dftbp_mdcommon_MOD_mdcommon_evalkt [97]
+                0.00    0.00     102/203         __dftbp_mdcommon_MOD_evalke [82]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[98]     0.0    0.00    0.00     101         __dftbp_densitymatrix_MOD_fulldensitymatrix_real [98]
+                0.00    0.00     101/202         __dftbp_blasroutines_MOD_herk_dble [83]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_eigenvects_MOD_diagdenserealmtx [100]
+[99]     0.0    0.00    0.00     101         __dftbp_eigensolver_MOD_dble_dsygvd [99]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[100]    0.0    0.00    0.00     101         __dftbp_eigenvects_MOD_diagdenserealmtx [100]
+                0.00    0.00     101/101         __dftbp_eigensolver_MOD_dble_dsygvd [99]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[101]    0.0    0.00    0.00     101         __dftbp_elecsolvers_MOD_telectronicsolver_reset [101]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[102]    0.0    0.00    0.00     101         __dftbp_elecsolvers_MOD_telectronicsolver_updateelectronictemp [102]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_etemp_MOD_efilling [24]
+[103]    0.0    0.00    0.00     101         __dftbp_etemp_MOD_derivelectroncount [103]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_etemp_MOD_efilling [24]
+[104]    0.0    0.00    0.00     101         __dftbp_etemp_MOD_electronfill [104]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writegenformat_fname [106]
+[105]    0.0    0.00    0.00     101         __dftbp_formatout_MOD_writegenformat_fid [105]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writecurrentgeometry [114]
+[106]    0.0    0.00    0.00     101         __dftbp_formatout_MOD_writegenformat_fname [106]
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writegenformat_fid [105]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writexyzformat_fname [108]
+[107]    0.0    0.00    0.00     101         __dftbp_formatout_MOD_writexyzformat_fid [107]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_mainio_MOD_writecurrentgeometry [114]
+[108]    0.0    0.00    0.00     101         __dftbp_formatout_MOD_writexyzformat_fname [108]
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writexyzformat_fid [107]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[109]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_opendetailedout [109]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[110]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_printenergies [110]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_rundftbplus [7]
+[111]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_printgeostepinfo [111]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[112]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_printmdinfo [112]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[113]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writebandout [113]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[114]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writecurrentgeometry [114]
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writexyzformat_fname [108]
+                0.00    0.00     101/101         __dftbp_formatout_MOD_writegenformat_fname [106]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[115]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writedetailedout2 [115]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[116]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writedetailedout3 [116]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_rundftbplus [7]
+[117]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writedetailedout4 [117]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[118]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writemdout1 [118]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[119]    0.0    0.00    0.00     101         __dftbp_mainio_MOD_writemdout2 [119]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[120]    0.0    0.00    0.00     101         __dftbp_mdintegrator_MOD_mdintegrator_next [120]
+                0.00    0.00     101/101         __dftbp_thermostat_MOD_thermostat_updatevelocities [131]
+                0.00    0.00     101/101         __dftbp_velocityverlet_MOD_velocityverlet_next [132]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[121]    0.0    0.00    0.00     101         __dftbp_mdintegrator_MOD_mdintegrator_state [121]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[122]    0.0    0.00    0.00     101         __dftbp_periodic_MOD_getsparsedescriptor [122]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_periodic_MOD_updateneighbourlist [11]
+[123]    0.0    0.00    0.00     101         __dftbp_periodic_MOD_reallocatearrays1 [123]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_forces_MOD_derivative_nonscc [597]
+[124]    0.0    0.00    0.00     101         __dftbp_schedule_MOD_assembler2chunks [124]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[125]    0.0    0.00    0.00     101         __dftbp_shift_MOD_add_shift_block [125]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[126]    0.0    0.00    0.00     101         __dftbp_shift_MOD_addatom_shell [126]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[127]    0.0    0.00    0.00     101         __dftbp_shift_MOD_addshell_block [127]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[128]    0.0    0.00    0.00     101         __dftbp_spin_MOD_qm2ud2 [128]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_hasstopfile [9]
+[129]    0.0    0.00    0.00     101         __dftbp_spin_MOD_ud2qm2 [129]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[130]    0.0    0.00    0.00     101         __dftbp_thermostat_MOD_thermostat_state [130]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_mdintegrator_MOD_mdintegrator_next [120]
+[131]    0.0    0.00    0.00     101         __dftbp_thermostat_MOD_thermostat_updatevelocities [131]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_mdintegrator_MOD_mdintegrator_next [120]
+[132]    0.0    0.00    0.00     101         __dftbp_velocityverlet_MOD_velocityverlet_next [132]
+-----------------------------------------------
+                0.00    0.00     101/101         __dftbp_main_MOD_processgeometry [8]
+[133]    0.0    0.00    0.00     101         __dftbp_velocityverlet_MOD_velocityverlet_state [133]
+-----------------------------------------------
+                0.00    0.00       4/93          __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00       4/93          __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       5/93          __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       5/93          __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00      11/93          __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      17/93          __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00      23/93          __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      24/93          __dftbp_hsdutils_MOD_getchval_logical [145]
+[134]    0.0    0.00    0.00      93         __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00     435/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00     435/475         __xmlf90_dom_node_MOD_getnodename [61]
+                0.00    0.00     435/1270        __xmlf90_strings_MOD_s_eq_c [45]
+                0.00    0.00     414/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00      90/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+-----------------------------------------------
+                0.00    0.00      85/85          __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[135]    0.0    0.00    0.00      85         __dftbp_charmanip_MOD_trim2 [135]
+                0.00    0.00      85/954         __dftbp_charmanip_MOD_complementaryscan [53]
+-----------------------------------------------
+                0.00    0.00       1/73          __dftbp_hsdparser_MOD_parsehsd_opened [225]
+                0.00    0.00       3/73          __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      11/73          __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      24/73          __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      34/73          __dftbp_hsdutils_MOD_createchild_local [141]
+[136]    0.0    0.00    0.00      73         __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00     146/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00      73/525         __xmlf90_dom_types_MOD_createnode [56]
+-----------------------------------------------
+                                  73             __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+[137]    0.0    0.00    0.00      73         __xmlf90_dom_types_MOD_destroynamednodemap <cycle 1> [137]
+                                 230             __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+-----------------------------------------------
+                0.00    0.00       3/67          __dftbp_charmanip_MOD_unquotedscan [139]
+                0.00    0.00      16/67          __dftbp_charmanip_MOD_unquote [154]
+                0.00    0.00      48/67          __dftbp_charmanip_MOD_unquotedindex [60]
+[138]    0.0    0.00    0.00      67         __dftbp_charmanip_MOD_getnextquotationpos [138]
+-----------------------------------------------
+                0.00    0.00      11/53          __dftbp_tokenreader_MOD_getnexttoken_local [55]
+                0.00    0.00      42/53          __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+[139]    0.0    0.00    0.00      53         __dftbp_charmanip_MOD_unquotedscan [139]
+                0.00    0.00       3/67          __dftbp_charmanip_MOD_getnextquotationpos [138]
+-----------------------------------------------
+                0.00    0.00       1/49          __dftbp_hsdparser_MOD_parsehsd_opened [225]
+                0.00    0.00      24/49          __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      24/49          __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[140]    0.0    0.00    0.00      49         __dftbp_charmanip_MOD_i2c [140]
+-----------------------------------------------
+                0.00    0.00       1/34          __dftbp_hsdutils_MOD_setchval_char [229]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_setchval_node [188]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_setchval_int [187]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_setchval_real [189]
+                0.00    0.00      24/34          __dftbp_hsdutils_MOD_setchval_logical [146]
+[141]    0.0    0.00    0.00      34         __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00      68/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00      65/284         __xmlf90_dom_node_MOD_appendchild [71]
+                0.00    0.00      64/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00      64/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00      34/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+                0.00    0.00      34/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00      34/73          __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00      34/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      31/211         __xmlf90_dom_document_MOD_createtextnode [81]
+                0.00    0.00      30/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00      30/475         __xmlf90_dom_node_MOD_getnodename [61]
+-----------------------------------------------
+                0.00    0.00       5/29          __dftbp_parser_MOD_readskfiles [253]
+                0.00    0.00      10/29          __dftbp_parser_MOD_getfulltable.constprop.0 [180]
+                0.00    0.00      14/29          __dftbp_parser_MOD_parsehsdtree [250]
+[142]    0.0    0.00    0.00      29         __dftbp_linkedlisti1_MOD_listintr1_len [142]
+-----------------------------------------------
+                0.00    0.00      24/24          __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[143]    0.0    0.00    0.00      24         __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      74/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00      24/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      24/73          __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00      24/284         __xmlf90_dom_node_MOD_appendchild [71]
+                0.00    0.00      24/49          __dftbp_charmanip_MOD_i2c [140]
+-----------------------------------------------
+                0.00    0.00      24/24          __dftbp_hsdutils_MOD_setchval_logical [146]
+[144]    0.0    0.00    0.00      24         __dftbp_hsdutils_MOD_getasstring_logical [144]
+-----------------------------------------------
+                0.00    0.00       5/24          __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00      19/24          __dftbp_parser_MOD_parsehsdtree [250]
+[145]    0.0    0.00    0.00      24         __dftbp_hsdutils_MOD_getchval_logical [145]
+                0.00    0.00      24/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      24/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00      24/24          __dftbp_hsdutils_MOD_setchval_logical [146]
+-----------------------------------------------
+                0.00    0.00      24/24          __dftbp_hsdutils_MOD_getchval_logical [145]
+[146]    0.0    0.00    0.00      24         __dftbp_hsdutils_MOD_setchval_logical [146]
+                0.00    0.00      24/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00      24/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00      24/24          __dftbp_hsdutils_MOD_getasstring_logical [144]
+                0.00    0.00      24/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00      24/34          __dftbp_hsdutils_MOD_createchild_local [141]
+-----------------------------------------------
+                0.00    0.00       2/24          __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       2/24          __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       3/24          __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       4/24          __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00       4/24          __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00       9/24          __dftbp_hsdutils_MOD_getchval_node [148]
+[147]    0.0    0.00    0.00      24         __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00      24/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00      24/305         __xmlf90_dom_namednodemap_MOD_getnameditem [66]
+-----------------------------------------------
+                0.00    0.00       1/23          __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00      22/23          __dftbp_parser_MOD_parsehsdtree [250]
+[148]    0.0    0.00    0.00      23         __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      26/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      23/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00      21/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00      11/303         __xmlf90_dom_node_MOD_getnodetype [68]
+                0.00    0.00      11/11          __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00       9/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       9/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+                0.00    0.00       8/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       3/73          __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_setchval_node [188]
+                0.00    0.00       1/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+-----------------------------------------------
+                0.00    0.00       1/17          __dftbp_hsdhelpers_MOD_dopostparsejobs [219]
+                0.00    0.00       2/17          __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00      14/17          __dftbp_parser_MOD_parsehsdtree [250]
+[149]    0.0    0.00    0.00      17         __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00      17/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      17/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00       4/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       4/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00       4/494         __xmlf90_strings_MOD_len_s [59]
+-----------------------------------------------
+                0.00    0.00       2/16          __dftbp_parser_MOD_readskfiles [253]
+                0.00    0.00       4/16          __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      10/16          __dftbp_parser_MOD_getfulltable.constprop.0 [180]
+[150]    0.0    0.00    0.00      16         __dftbp_linkedlisti1_MOD_listintr1_intoarray [150]
+-----------------------------------------------
+                0.00    0.00       2/16          __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00       3/16          __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       3/16          __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       8/16          __dftbp_hsdutils_MOD_getchval_lstring [171]
+[151]    0.0    0.00    0.00      16         __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00      16/862         __dftbp_tokenreader_MOD_getnexttoken_local [55]
+                0.00    0.00      11/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00       1/12          __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       2/12          __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       2/12          __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       3/12          __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       4/12          __dftbp_hsdutils_MOD_getchval_lstring [171]
+[152]    0.0    0.00    0.00      12         __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00      12/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+                0.00    0.00      12/303         __xmlf90_dom_node_MOD_getnodetype [68]
+                0.00    0.00      12/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00      12/171         __xmlf90_dom_node_MOD_getnodevalue [90]
+-----------------------------------------------
+                0.00    0.00      11/11          __dftbp_hsdutils_MOD_getchval_node [148]
+[153]    0.0    0.00    0.00      11         __dftbp_hsdutils_MOD_setchild [153]
+                0.00    0.00      30/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00      22/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00      11/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00      11/73          __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00      11/284         __xmlf90_dom_node_MOD_appendchild [71]
+-----------------------------------------------
+                0.00    0.00       1/8           __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00       3/8           __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00       4/8           __dftbp_hsdutils_MOD_getchval_lstring [171]
+[154]    0.0    0.00    0.00       8         __dftbp_charmanip_MOD_unquote [154]
+                0.00    0.00      16/67          __dftbp_charmanip_MOD_getnextquotationpos [138]
+-----------------------------------------------
+                0.00    0.00       8/8           __dftbp_parser_MOD_readskfiles [253]
+[155]    0.0    0.00    0.00       8         __dftbp_slakocont_MOD_slakocont_addtableeqgrid [155]
+                0.00    0.00       8/8           __dftbp_slakoeqgrid_MOD_slakoeqgrid_getnintegrals [157]
+                0.00    0.00       8/8           __dftbp_slakoeqgrid_MOD_slakoeqgrid_getcutoff [156]
+-----------------------------------------------
+                0.00    0.00       8/8           __dftbp_slakocont_MOD_slakocont_addtableeqgrid [155]
+[156]    0.0    0.00    0.00       8         __dftbp_slakoeqgrid_MOD_slakoeqgrid_getcutoff [156]
+-----------------------------------------------
+                0.00    0.00       8/8           __dftbp_slakocont_MOD_slakocont_addtableeqgrid [155]
+[157]    0.0    0.00    0.00       8         __dftbp_slakoeqgrid_MOD_slakoeqgrid_getnintegrals [157]
+-----------------------------------------------
+                0.00    0.00       8/8           __dftbp_parser_MOD_readskfiles [253]
+[158]    0.0    0.00    0.00       8         __dftbp_slakoeqgrid_MOD_slakoeqgrid_init [158]
+-----------------------------------------------
+                0.00    0.00       1/8           __dftbp_xmlutils_MOD_removenodes [273]
+                0.00    0.00       1/8           __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00       1/8           __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+                0.00    0.00       2/8           __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00       3/8           __dftbp_hsdutils_MOD_getchildren [186]
+[159]    0.0    0.00    0.00       8         __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+-----------------------------------------------
+                                 108             __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00       7/7           __dftbp_hsdparser_MOD_dumphsd_opened [222]
+[160]    0.0    0.00    0.00       7+108     __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00     208/305         __xmlf90_dom_namednodemap_MOD_getnameditem [66]
+                0.00    0.00     208/281         __xmlf90_dom_element_MOD_getattributenode [72]
+                0.00    0.00     165/303         __xmlf90_dom_node_MOD_getnodetype [68]
+                0.00    0.00     161/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00     159/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00     159/171         __xmlf90_dom_node_MOD_getnodevalue [90]
+                0.00    0.00     159/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00     158/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00      85/85          __dftbp_charmanip_MOD_trim2 [135]
+                0.00    0.00      72/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+                0.00    0.00      42/53          __dftbp_charmanip_MOD_unquotedscan [139]
+                                 108             __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+-----------------------------------------------
+                0.00    0.00       2/7           __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       2/7           __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       3/7           __dftbp_hsdutils_MOD_getchval_string [172]
+[161]    0.0    0.00    0.00       7         __dftbp_hsdutils_MOD_checknodata [161]
+                0.00    0.00       7/954         __dftbp_charmanip_MOD_complementaryscan [53]
+-----------------------------------------------
+                0.00    0.00       2/6           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       4/6           __dftbp_hsdutils_MOD_getchval_lstring [171]
+[162]    0.0    0.00    0.00       6         __dftbp_linkedlists0_MOD_liststring_append [162]
+-----------------------------------------------
+                0.00    0.00       2/6           __dftbp_linkedlists0_MOD_liststring_asarray [240]
+                0.00    0.00       4/6           __dftbp_parser_MOD_parsehsdtree [250]
+[163]    0.0    0.00    0.00       6         __xmlf90_strings_MOD_assign_s_to_c [163]
+-----------------------------------------------
+                0.00    0.00       5/5           __dftbp_parser_MOD_parsehsdtree [250]
+[164]    0.0    0.00    0.00       5         __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       6/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       5/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       5/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00       4/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_setchval_int [187]
+                0.00    0.00       2/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       2/12          __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00       2/342         __dftbp_tokenreader_MOD_getnexttoken_integer [64]
+                0.00    0.00       2/509         __dftbp_hsdutils_MOD_checkerror [57]
+                0.00    0.00       2/7           __dftbp_hsdutils_MOD_checknodata [161]
+                0.00    0.00       2/240         __xmlf90_dom_element_MOD_setattribute [75]
+-----------------------------------------------
+                0.00    0.00       5/5           __dftbp_parser_MOD_parsehsdtree [250]
+[165]    0.0    0.00    0.00       5         __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       7/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00       5/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       5/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00       4/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00       4/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       4/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_setchval_real [189]
+                0.00    0.00       2/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       2/12          __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00       2/504         __dftbp_tokenreader_MOD_getnexttoken_real [58]
+                0.00    0.00       2/509         __dftbp_hsdutils_MOD_checkerror [57]
+                0.00    0.00       2/7           __dftbp_hsdutils_MOD_checknodata [161]
+                0.00    0.00       2/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00       1/5           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       4/5           __dftbp_parser_MOD_parsehsdtree [250]
+[166]    0.0    0.00    0.00       5         __dftbp_linkedlists0_MOD_liststring_destruct [166]
+-----------------------------------------------
+                0.00    0.00       1/5           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       4/5           __dftbp_parser_MOD_parsehsdtree [250]
+[167]    0.0    0.00    0.00       5         __dftbp_linkedlists0_MOD_liststring_init [167]
+-----------------------------------------------
+                0.00    0.00       1/5           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       4/5           __dftbp_parser_MOD_parsehsdtree [250]
+[168]    0.0    0.00    0.00       5         __dftbp_linkedlists0_MOD_liststring_len [168]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[169]    0.0    0.00    0.00       4         __dftbp_hsdutils2_MOD_convertbymul_real [169]
+                0.00    0.00       2/2           __dftbp_hsdutils2_MOD_getmodifierindex [196]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[170]    0.0    0.00    0.00       4         __dftbp_hsdutils2_MOD_getnodename2 [170]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[171]    0.0    0.00    0.00       4         __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00      12/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       8/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       8/16          __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00       4/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       4/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00       4/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       4/12          __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00       4/8           __dftbp_charmanip_MOD_unquote [154]
+                0.00    0.00       4/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00       4/6           __dftbp_linkedlists0_MOD_liststring_append [162]
+                0.00    0.00       4/240         __xmlf90_dom_element_MOD_setattribute [75]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[172]    0.0    0.00    0.00       4         __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       9/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       6/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       4/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       4/93          __dftbp_xmlutils_MOD_getfirstchildbyname [134]
+                0.00    0.00       3/24          __xmlf90_dom_element_MOD_getattribute [147]
+                0.00    0.00       3/12          __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00       3/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00       3/16          __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00       3/509         __dftbp_hsdutils_MOD_checkerror [57]
+                0.00    0.00       3/7           __dftbp_hsdutils_MOD_checknodata [161]
+                0.00    0.00       1/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_setchval_char [229]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[173]    0.0    0.00    0.00       4         __dftbp_linkedlistlc0_MOD_listcharlc_append [173]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[174]    0.0    0.00    0.00       4         __dftbp_linkedlistlc0_MOD_listcharlc_destruct [174]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_readskfiles [253]
+[175]    0.0    0.00    0.00       4         __dftbp_linkedlistlc0_MOD_listcharlc_get [175]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[176]    0.0    0.00    0.00       4         __dftbp_linkedlistlc0_MOD_listcharlc_init [176]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_parsehsdtree [250]
+[177]    0.0    0.00    0.00       4         __dftbp_linkedlists0_MOD_liststring_get [177]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_readskfiles [253]
+[178]    0.0    0.00    0.00       4         __dftbp_oldskdata_MOD_oldskdata_readfromfile [178]
+                0.00    0.00       4/4           __dftbp_oldskdata_MOD_oldskdata_readsplinerep [179]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_oldskdata_MOD_oldskdata_readfromfile [178]
+[179]    0.0    0.00    0.00       4         __dftbp_oldskdata_MOD_oldskdata_readsplinerep [179]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_readskfiles [253]
+[180]    0.0    0.00    0.00       4         __dftbp_parser_MOD_getfulltable.constprop.0 [180]
+                0.00    0.00      10/29          __dftbp_linkedlisti1_MOD_listintr1_len [142]
+                0.00    0.00      10/16          __dftbp_linkedlisti1_MOD_listintr1_intoarray [150]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_readskfiles [253]
+[181]    0.0    0.00    0.00       4         __dftbp_repcont_MOD_repcont_addrepspline [181]
+                0.00    0.00       4/4           __dftbp_repspline_MOD_repspline_getcutoff [182]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_repcont_MOD_repcont_addrepspline [181]
+[182]    0.0    0.00    0.00       4         __dftbp_repspline_MOD_repspline_getcutoff [182]
+-----------------------------------------------
+                0.00    0.00       4/4           __dftbp_parser_MOD_readskfiles [253]
+[183]    0.0    0.00    0.00       4         __dftbp_repspline_MOD_repspline_init [183]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_setchval_int [187]
+[184]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_getasstring_int [184]
+                0.00    0.00       3/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_setchval_real [189]
+[185]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_getasstring_real [185]
+                0.00    0.00       3/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+-----------------------------------------------
+                0.00    0.00       1/3           __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00       2/3           __dftbp_parser_MOD_parsehsdtree [250]
+[186]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_getchildren [186]
+                0.00    0.00       3/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       3/3           __dftbp_xmlutils_MOD_getchildrenbyname [192]
+                0.00    0.00       3/8           __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getchval_int [164]
+[187]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_setchval_int [187]
+                0.00    0.00       3/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getasstring_int [184]
+                0.00    0.00       3/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_createchild_local [141]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getchval_node [148]
+[188]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_setchval_node [188]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_createchild_local [141]
+                0.00    0.00       3/284         __xmlf90_dom_node_MOD_appendchild [71]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getchval_real [165]
+[189]    0.0    0.00    0.00       3         __dftbp_hsdutils_MOD_setchval_real [189]
+                0.00    0.00       3/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getasstring_real [185]
+                0.00    0.00       3/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       3/34          __dftbp_hsdutils_MOD_createchild_local [141]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_initprogram_MOD_initoutputfiles [235]
+[190]    0.0    0.00    0.00       3         __dftbp_mainio_MOD_initoutputfile [190]
+                0.00    0.00       2/2           __dftbp_fileid_MOD_getfileid [193]
+-----------------------------------------------
+                0.00    0.00       1/3           __dftbp_randomgenpool_MOD_randomgenpool_init [258]
+                0.00    0.00       2/3           __dftbp_randomgenpool_MOD_getgenerator [201]
+[191]    0.0    0.00    0.00       3         __dftbp_ranlux_MOD_ranlux_init_default [191]
+-----------------------------------------------
+                0.00    0.00       3/3           __dftbp_hsdutils_MOD_getchildren [186]
+[192]    0.0    0.00    0.00       3         __dftbp_xmlutils_MOD_getchildrenbyname [192]
+                0.00    0.00       3/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_mainio_MOD_initoutputfile [190]
+[193]    0.0    0.00    0.00       2         __dftbp_fileid_MOD_getfileid [193]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_initprogram_MOD_initoutputfiles [235]
+[194]    0.0    0.00    0.00       2         __dftbp_fileregistry_MOD_tfileregistry_register [194]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_initprogram_MOD_initoutputfiles [235]
+[195]    0.0    0.00    0.00       2         __dftbp_formatout_MOD_clearfile_fname [195]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_hsdutils2_MOD_convertbymul_real [169]
+[196]    0.0    0.00    0.00       2         __dftbp_hsdutils2_MOD_getmodifierindex [196]
+                0.00    0.00       2/171         __dftbp_charmanip_MOD_tolower [89]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_hsdutils_MOD_convatomrangetoint [228]
+[197]    0.0    0.00    0.00       2         __dftbp_linkedlisti0_MOD_listint_len [197]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_parser_MOD_parsehsdtree [250]
+[198]    0.0    0.00    0.00       2         __dftbp_linkedlisti1_MOD_listintr1_append [198]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_parser_MOD_parsehsdtree [250]
+[199]    0.0    0.00    0.00       2         __dftbp_linkedlisti1_MOD_listintr1_destruct [199]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_parser_MOD_parsehsdtree [250]
+[200]    0.0    0.00    0.00       2         __dftbp_linkedlisti1_MOD_listintr1_init [200]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_initprogram_MOD_initprogramvariables [236]
+[201]    0.0    0.00    0.00       2         __dftbp_randomgenpool_MOD_getgenerator [201]
+                0.00    0.00       2/3           __dftbp_ranlux_MOD_ranlux_init_default [191]
+                0.00    0.00       1/2           __dftbp_ranlux_MOD_ranlux_getrandomnumber [202]
+                0.00    0.00       1/168         __dftbp_ranlux_MOD_ranlux_getrandomvector [93]
+-----------------------------------------------
+                0.00    0.00       1/2           __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00       1/2           __dftbp_randomgenpool_MOD_getgenerator [201]
+[202]    0.0    0.00    0.00       2         __dftbp_ranlux_MOD_ranlux_getrandomnumber [202]
+                0.00    0.00       2/170         __dftbp_ranlux_MOD___copy_dftbp_ranlux_Oranlux [91]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_initprogram_MOD_initprogramvariables [236]
+[203]    0.0    0.00    0.00       2         __dftbp_slakocont_MOD_slakocont_getcutoff [203]
+-----------------------------------------------
+                0.00    0.00       2/2           __dftbp_parser_MOD_readskfiles [253]
+[204]    0.0    0.00    0.00       2         __dftbp_slakocont_MOD_slakocont_init [204]
+-----------------------------------------------
+                0.00    0.00       1/2           __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00       1/2           __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+[205]    0.0    0.00    0.00       2         __xmlf90_dom_types_MOD_destroynodelist [205]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_thermostat_MOD_thermostat_getinitvelocities [263]
+[206]    0.0    0.00    0.00       1         __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [206]
+                0.00    0.00     167/167         __dftbp_mdcommon_MOD_maxwellboltzmann [95]
+                0.00    0.00       1/1           __dftbp_mdcommon_MOD_mdcommon_restframe [246]
+                0.00    0.00       1/1           __dftbp_mdcommon_MOD_mdcommon_rescaletokt [245]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[207]    0.0    0.00    0.00       1         __dftbp_dummytherm_MOD_dummythermostat_init [207]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[208]    0.0    0.00    0.00       1         __dftbp_elecsolvers_MOD_telectronicsolver_getsolvername [208]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[209]    0.0    0.00    0.00       1         __dftbp_elecsolvers_MOD_telectronicsolver_init [209]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initarrays [234]
+[210]    0.0    0.00    0.00       1         __dftbp_energies_MOD_energies_init [210]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[211]    0.0    0.00    0.00       1         __dftbp_environment_MOD_tenvironment_destruct [211]
+                0.00    0.00       1/1           __dftbp_timerarray_MOD_writetimings [267]
+                0.00    0.00       1/1           __dftbp_fileregistry_MOD_tfileregistry_closeall [214]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[212]    0.0    0.00    0.00       1         __dftbp_environment_MOD_tenvironment_init [212]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[213]    0.0    0.00    0.00       1         __dftbp_environment_MOD_tenvironment_initglobaltimer [213]
+                0.00    0.00       1/1           __dftbp_timerarray_MOD_ttimerarray_init [266]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_destruct [211]
+[214]    0.0    0.00    0.00       1         __dftbp_fileregistry_MOD_tfileregistry_closeall [214]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[215]    0.0    0.00    0.00       1         __dftbp_fileregistry_MOD_tfileregistry_init [215]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[216]    0.0    0.00    0.00       1         __dftbp_formatout_MOD_printdftbheader [216]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[217]    0.0    0.00    0.00       1         __dftbp_globalenv_MOD_destructglobalenv [217]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[218]    0.0    0.00    0.00       1         __dftbp_globalenv_MOD_initglobalenv [218]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+[219]    0.0    0.00    0.00       1         __dftbp_hsdhelpers_MOD_dopostparsejobs [219]
+                0.00    0.00       1/17          __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00       1/1           __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_dumphsd_file [221]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[220]    0.0    0.00    0.00       1         __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parsehsd_file [224]
+                0.00    0.00       1/1           __dftbp_parser_MOD_readhsdfile [252]
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00       1/178         __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_dopostparsejobs [219]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_dopostparsejobs [219]
+[221]    0.0    0.00    0.00       1         __dftbp_hsdparser_MOD_dumphsd_file [221]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_dumphsd_opened [222]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_dumphsd_file [221]
+[222]    0.0    0.00    0.00       1         __dftbp_hsdparser_MOD_dumphsd_opened [222]
+                0.00    0.00       7/7           __dftbp_hsdparser_MOD_dumphsd_recursive [160]
+                0.00    0.00       7/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00       2/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+-----------------------------------------------
+                                  28             __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parsehsd_opened [225]
+[223]    0.0    0.00    0.00       1+28      __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00     218/485         __dftbp_charmanip_MOD_unquotedindex [60]
+                0.00    0.00     218/218         __dftbp_charmanip_MOD_getfirstoccurance [80]
+                0.00    0.00     199/199         __dftbp_charmanip_MOD_convertwhitespaces [88]
+                0.00    0.00     180/211         __xmlf90_dom_document_MOD_createtextnode [81]
+                0.00    0.00     180/284         __xmlf90_dom_node_MOD_appendchild [71]
+                0.00    0.00      27/240         __xmlf90_dom_element_MOD_setattribute [75]
+                0.00    0.00      24/24          __dftbp_hsdparser_MOD_createchildnode.constprop.1 [143]
+                0.00    0.00      24/49          __dftbp_charmanip_MOD_i2c [140]
+                0.00    0.00       1/1           __xmlf90_dom_element_MOD_normalize [276]
+                0.00    0.00       1/8           __dftbp_charmanip_MOD_unquote [154]
+                                  28             __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+[224]    0.0    0.00    0.00       1         __dftbp_hsdparser_MOD_parsehsd_file [224]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parsehsd_opened [225]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parsehsd_file [224]
+[225]    0.0    0.00    0.00       1         __dftbp_hsdparser_MOD_parsehsd_opened [225]
+                0.00    0.00       1/1           __xmlf90_dom_document_MOD_createdocumentnode [274]
+                0.00    0.00       1/73          __xmlf90_dom_document_MOD_createelement [136]
+                0.00    0.00       1/284         __xmlf90_dom_node_MOD_appendchild [71]
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+                0.00    0.00       1/171         __dftbp_charmanip_MOD_tolower [89]
+                0.00    0.00       1/49          __dftbp_charmanip_MOD_i2c [140]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[226]    0.0    0.00    0.00       1         __dftbp_hsdutils2_MOD_setunprocessed [226]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_dopostparsejobs [219]
+[227]    0.0    0.00    0.00       1         __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+                0.00    0.00       1/1           __dftbp_xmlutils_MOD_gettagswithoutattribute [272]
+                0.00    0.00       1/8           __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+                0.00    0.00       1/2           __xmlf90_dom_types_MOD_destroynodelist [205]
+                0.00    0.00       1/1           __dftbp_xmlutils_MOD_removenodes [273]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[228]    0.0    0.00    0.00       1         __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00     167/167         __dftbp_linkedlisti0_MOD_listint_append [94]
+                0.00    0.00       2/16          __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00       2/2           __dftbp_linkedlisti0_MOD_listint_len [197]
+                0.00    0.00       2/342         __dftbp_tokenreader_MOD_getnexttoken_integer [64]
+                0.00    0.00       1/1           __dftbp_linkedlisti0_MOD_listint_init [239]
+                0.00    0.00       1/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       1/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       1/1           __dftbp_linkedlisti0_MOD_listint_asarray [237]
+                0.00    0.00       1/1           __dftbp_linkedlisti0_MOD_listint_destruct [238]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_getchval_string [172]
+[229]    0.0    0.00    0.00       1         __dftbp_hsdutils_MOD_setchval_char [229]
+                0.00    0.00       1/34          __dftbp_hsdutils_MOD_createchild_local [141]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initarrays [234]
+[230]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_allocatedensematrices [230]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[231]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_destructprogramvariables [231]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[232]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_ensuresolvercompatibility [232]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[233]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_getdensedesccommon [233]
+                0.00    0.00       1/1           __dftbp_periodic_MOD_buildsquaredatomindex [254]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[234]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_initarrays [234]
+                0.00    0.00       1/1           __dftbp_energies_MOD_energies_init [210]
+                0.00    0.00       1/1           __dftbp_potentials_MOD_potentials_init [256]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_allocatedensematrices [230]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[235]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_initoutputfiles [235]
+                0.00    0.00       3/3           __dftbp_mainio_MOD_initoutputfile [190]
+                0.00    0.00       2/2           __dftbp_fileregistry_MOD_tfileregistry_register [194]
+                0.00    0.00       2/2           __dftbp_formatout_MOD_clearfile_fname [195]
+                0.00    0.00       1/1           __dftbp_taggedoutput_MOD_ttaggedwriter_init [262]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [6]
+[236]    0.0    0.00    0.00       1         __dftbp_initprogram_MOD_initprogramvariables [236]
+                0.00    0.00       2/2           __dftbp_slakocont_MOD_slakocont_getcutoff [203]
+                0.00    0.00       2/2           __dftbp_randomgenpool_MOD_getgenerator [201]
+                0.00    0.00       2/16869       __dftbp_orbitals_MOD_getshellnames [43]
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_initglobaltimer [213]
+                0.00    0.00       1/1114        __dftbp_timerarray_MOD_starttimer [50]
+                0.00    0.00       1/1           __dftbp_parallelks_MOD_tparallelks_init [249]
+                0.00    0.00       1/1           __dftbp_repcont_MOD_repcont_getcutoff [259]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_getdensedesccommon [233]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_ensuresolvercompatibility [232]
+                0.00    0.00       1/1           __dftbp_elecsolvers_MOD_telectronicsolver_init [209]
+                0.00    0.00       1/1           __dftbp_randomgenpool_MOD_randomgenpool_init [258]
+                0.00    0.00       1/2           __dftbp_ranlux_MOD_ranlux_getrandomnumber [202]
+                0.00    0.00       1/1           __dftbp_mdcommon_MOD_mdcommon_init [244]
+                0.00    0.00       1/1           __dftbp_mdintegrator_MOD_mdintegrator_init_vverlet [247]
+                0.00    0.00       1/1           __dftbp_periodic_MOD_init_tneighbourlist [255]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initarrays [234]
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initoutputfiles [235]
+                0.00    0.00       1/1           __dftbp_nonscc_MOD_nonsccdiff_init [248]
+                0.00    0.00       1/1           __dftbp_sccinit_MOD_initqfromshellchrg [261]
+                0.00    0.00       1/1           __dftbp_dummytherm_MOD_dummythermostat_init [207]
+                0.00    0.00       1/1           __dftbp_thermostat_MOD_thermostat_init_dummy [264]
+                0.00    0.00       1/1           __dftbp_elecsolvers_MOD_telectronicsolver_getsolvername [208]
+                0.00    0.00       1/1112        __dftbp_timerarray_MOD_stoptimer [51]
+                0.00    0.00       1/1           __dftbp_velocityverlet_MOD_velocityverlet_themostats [270]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_convatomrangetoint [228]
+[237]    0.0    0.00    0.00       1         __dftbp_linkedlisti0_MOD_listint_asarray [237]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_convatomrangetoint [228]
+[238]    0.0    0.00    0.00       1         __dftbp_linkedlisti0_MOD_listint_destruct [238]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_convatomrangetoint [228]
+[239]    0.0    0.00    0.00       1         __dftbp_linkedlisti0_MOD_listint_init [239]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+[240]    0.0    0.00    0.00       1         __dftbp_linkedlists0_MOD_liststring_asarray [240]
+                0.00    0.00       2/6           __xmlf90_strings_MOD_assign_s_to_c [163]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_main_MOD_rundftbplus [7]
+[241]    0.0    0.00    0.00       1         __dftbp_mainio_MOD_writedetailedout5 [241]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_main_MOD_rundftbplus [7]
+[242]    0.0    0.00    0.00       1         __dftbp_mainio_MOD_writefinaldriverstatus [242]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_main_MOD_rundftbplus [7]
+[243]    0.0    0.00    0.00       1         __dftbp_mainio_MOD_writemdout3 [243]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[244]    0.0    0.00    0.00       1         __dftbp_mdcommon_MOD_mdcommon_init [244]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [206]
+[245]    0.0    0.00    0.00       1         __dftbp_mdcommon_MOD_mdcommon_rescaletokt [245]
+                0.00    0.00       1/102         __dftbp_mdcommon_MOD_mdcommon_evalkt [97]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [206]
+[246]    0.0    0.00    0.00       1         __dftbp_mdcommon_MOD_mdcommon_restframe [246]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[247]    0.0    0.00    0.00       1         __dftbp_mdintegrator_MOD_mdintegrator_init_vverlet [247]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[248]    0.0    0.00    0.00       1         __dftbp_nonscc_MOD_nonsccdiff_init [248]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[249]    0.0    0.00    0.00       1         __dftbp_parallelks_MOD_tparallelks_init [249]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+[250]    0.0    0.00    0.00       1         __dftbp_parser_MOD_parsehsdtree [250]
+                0.00    0.00      22/23          __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00      22/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00      22/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00      19/24          __dftbp_hsdutils_MOD_getchval_logical [145]
+                0.00    0.00      14/17          __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00      14/29          __dftbp_linkedlisti1_MOD_listintr1_len [142]
+                0.00    0.00      11/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+                0.00    0.00      10/475         __xmlf90_dom_node_MOD_getnodename [61]
+                0.00    0.00       5/5           __dftbp_hsdutils_MOD_getchval_int [164]
+                0.00    0.00       5/5           __dftbp_hsdutils_MOD_getchval_real [165]
+                0.00    0.00       4/16          __dftbp_linkedlisti1_MOD_listintr1_intoarray [150]
+                0.00    0.00       4/4           __dftbp_hsdutils2_MOD_getnodename2 [170]
+                0.00    0.00       4/4           __dftbp_linkedlistlc0_MOD_listcharlc_init [176]
+                0.00    0.00       4/4           __dftbp_hsdutils_MOD_getchval_string [172]
+                0.00    0.00       4/5           __dftbp_linkedlists0_MOD_liststring_init [167]
+                0.00    0.00       4/4           __dftbp_hsdutils_MOD_getchval_lstring [171]
+                0.00    0.00       4/5           __dftbp_linkedlists0_MOD_liststring_len [168]
+                0.00    0.00       4/4           __dftbp_linkedlistlc0_MOD_listcharlc_append [173]
+                0.00    0.00       4/6           __xmlf90_strings_MOD_assign_s_to_c [163]
+                0.00    0.00       4/4           __dftbp_linkedlists0_MOD_liststring_get [177]
+                0.00    0.00       4/5           __dftbp_linkedlists0_MOD_liststring_destruct [166]
+                0.00    0.00       4/4           __dftbp_linkedlistlc0_MOD_listcharlc_destruct [174]
+                0.00    0.00       4/4           __dftbp_hsdutils2_MOD_convertbymul_real [169]
+                0.00    0.00       3/8           __dftbp_charmanip_MOD_unquote [154]
+                0.00    0.00       3/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00       2/2           __dftbp_linkedlisti1_MOD_listintr1_init [200]
+                0.00    0.00       2/2           __dftbp_linkedlisti1_MOD_listintr1_destruct [199]
+                0.00    0.00       2/2           __dftbp_linkedlisti1_MOD_listintr1_append [198]
+                0.00    0.00       2/8           __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+                0.00    0.00       2/3           __dftbp_hsdutils_MOD_getchildren [186]
+                0.00    0.00       1/1           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00       1/1           __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00       1/1           __xmlf90_dom_namednodemap_MOD_removenameditem [278]
+                0.00    0.00       1/1           __xmlf90_dom_element_MOD_removeattribute [277]
+                0.00    0.00       1/1           __dftbp_hsdutils2_MOD_setunprocessed [226]
+                0.00    0.00       1/1           __dftbp_hsdutils_MOD_convatomrangetoint [228]
+                0.00    0.00       1/2           __xmlf90_dom_types_MOD_destroynodelist [205]
+                0.00    0.00       1/1           __dftbp_parser_MOD_readskfiles [253]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[251]    0.0    0.00    0.00       1         __dftbp_parser_MOD_readanalysis [251]
+                0.00    0.00       5/24          __dftbp_hsdutils_MOD_getchval_logical [145]
+                0.00    0.00       2/17          __dftbp_hsdutils_MOD_getchild [149]
+                0.00    0.00       1/23          __dftbp_hsdutils_MOD_getchval_node [148]
+                0.00    0.00       1/8           __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+                0.00    0.00       1/3           __dftbp_hsdutils_MOD_getchildren [186]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdhelpers_MOD_parsehsdinput [220]
+[252]    0.0    0.00    0.00       1         __dftbp_parser_MOD_readhsdfile [252]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[253]    0.0    0.00    0.00       1         __dftbp_parser_MOD_readskfiles [253]
+                0.00    0.00       8/8           __dftbp_slakoeqgrid_MOD_slakoeqgrid_init [158]
+                0.00    0.00       8/8           __dftbp_slakocont_MOD_slakocont_addtableeqgrid [155]
+                0.00    0.00       5/29          __dftbp_linkedlisti1_MOD_listintr1_len [142]
+                0.00    0.00       4/4           __dftbp_linkedlistlc0_MOD_listcharlc_get [175]
+                0.00    0.00       4/4           __dftbp_parser_MOD_getfulltable.constprop.0 [180]
+                0.00    0.00       4/4           __dftbp_oldskdata_MOD_oldskdata_readfromfile [178]
+                0.00    0.00       4/4           __dftbp_repspline_MOD_repspline_init [183]
+                0.00    0.00       4/4           __dftbp_repcont_MOD_repcont_addrepspline [181]
+                0.00    0.00       2/2           __dftbp_slakocont_MOD_slakocont_init [204]
+                0.00    0.00       2/16          __dftbp_linkedlisti1_MOD_listintr1_intoarray [150]
+                0.00    0.00       1/1           __dftbp_repcont_MOD_repcont_init [260]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_getdensedesccommon [233]
+[254]    0.0    0.00    0.00       1         __dftbp_periodic_MOD_buildsquaredatomindex [254]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[255]    0.0    0.00    0.00       1         __dftbp_periodic_MOD_init_tneighbourlist [255]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initarrays [234]
+[256]    0.0    0.00    0.00       1         __dftbp_potentials_MOD_potentials_init [256]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_randomgenpool_MOD_randomgenpool_init [258]
+[257]    0.0    0.00    0.00       1         __dftbp_randomgenpool_MOD___final_dftbp_randomgenpool_Orandomgenpool [257]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[258]    0.0    0.00    0.00       1         __dftbp_randomgenpool_MOD_randomgenpool_init [258]
+                0.00    0.00       1/1           __dftbp_randomgenpool_MOD___final_dftbp_randomgenpool_Orandomgenpool [257]
+                0.00    0.00       1/3           __dftbp_ranlux_MOD_ranlux_init_default [191]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[259]    0.0    0.00    0.00       1         __dftbp_repcont_MOD_repcont_getcutoff [259]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_readskfiles [253]
+[260]    0.0    0.00    0.00       1         __dftbp_repcont_MOD_repcont_init [260]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[261]    0.0    0.00    0.00       1         __dftbp_sccinit_MOD_initqfromshellchrg [261]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initoutputfiles [235]
+[262]    0.0    0.00    0.00       1         __dftbp_taggedoutput_MOD_ttaggedwriter_init [262]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_velocityverlet_MOD_velocityverlet_themostats [270]
+[263]    0.0    0.00    0.00       1         __dftbp_thermostat_MOD_thermostat_getinitvelocities [263]
+                0.00    0.00       1/1           __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [206]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[264]    0.0    0.00    0.00       1         __dftbp_thermostat_MOD_thermostat_init_dummy [264]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_timerarray_MOD_ttimerarray_init [266]
+[265]    0.0    0.00    0.00       1         __dftbp_timerarray_MOD_reset [265]
+                0.00    0.00       1/1216        __dftbp_timer_MOD_start [46]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_initglobaltimer [213]
+[266]    0.0    0.00    0.00       1         __dftbp_timerarray_MOD_ttimerarray_init [266]
+                0.00    0.00       1/1           __dftbp_timerarray_MOD_reset [265]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_environment_MOD_tenvironment_destruct [211]
+[267]    0.0    0.00    0.00       1         __dftbp_timerarray_MOD_writetimings [267]
+                0.00    0.00       1/1214        __dftbp_timer_MOD_getcputime [47]
+                0.00    0.00       1/1214        __dftbp_timer_MOD_getwallclocktime [48]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+[268]    0.0    0.00    0.00       1         __dftbp_typegeometry_MOD_geometry_normalize [268]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[269]    0.0    0.00    0.00       1         __dftbp_typegeometryhsd_MOD_readtgeometrygen [269]
+                0.00    0.00     502/509         __dftbp_hsdutils_MOD_checkerror [57]
+                0.00    0.00     338/342         __dftbp_tokenreader_MOD_getnexttoken_integer [64]
+                0.00    0.00     167/167         __dftbp_tokenreader_MOD_getnexttoken_realr1 [96]
+                0.00    0.00       4/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00       4/302         __xmlf90_strings_MOD_s_to_c [69]
+                0.00    0.00       3/16          __dftbp_tokenreader_MOD_getnexttoken_string [151]
+                0.00    0.00       2/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00       2/6           __dftbp_linkedlists0_MOD_liststring_append [162]
+                0.00    0.00       1/12          __dftbp_hsdutils_MOD_getfirsttextchild [152]
+                0.00    0.00       1/5           __dftbp_linkedlists0_MOD_liststring_init [167]
+                0.00    0.00       1/5           __dftbp_linkedlists0_MOD_liststring_len [168]
+                0.00    0.00       1/1           __dftbp_linkedlists0_MOD_liststring_asarray [240]
+                0.00    0.00       1/5           __dftbp_linkedlists0_MOD_liststring_destruct [166]
+                0.00    0.00       1/504         __dftbp_tokenreader_MOD_getnexttoken_real [58]
+                0.00    0.00       1/1           __dftbp_typegeometry_MOD_geometry_normalize [268]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_initprogram_MOD_initprogramvariables [236]
+[270]    0.0    0.00    0.00       1         __dftbp_velocityverlet_MOD_velocityverlet_themostats [270]
+                0.00    0.00       1/1           __dftbp_thermostat_MOD_thermostat_getinitvelocities [263]
+-----------------------------------------------
+                                  72             __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00       1/1           __dftbp_xmlutils_MOD_gettagswithoutattribute [272]
+[271]    0.0    0.00    0.00       1+72      __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+                0.00    0.00     115/303         __xmlf90_dom_node_MOD_getnodetype [68]
+                0.00    0.00     115/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00      73/295         __xmlf90_dom_node_MOD_getfirstchild [70]
+                0.00    0.00      73/305         __xmlf90_dom_namednodemap_MOD_getnameditem [66]
+                0.00    0.00      73/281         __xmlf90_dom_element_MOD_getattributenode [72]
+                                  72             __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+[272]    0.0    0.00    0.00       1         __dftbp_xmlutils_MOD_gettagswithoutattribute [272]
+                0.00    0.00       1/1           __dftbp_xmlutils_MOD_gettagswithoutattr_recursive [271]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdutils2_MOD_warnunprocessednodes [227]
+[273]    0.0    0.00    0.00       1         __dftbp_xmlutils_MOD_removenodes [273]
+                0.00    0.00       1/8           __xmlf90_dom_nodelist_MOD_getlength_nl [159]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parsehsd_opened [225]
+[274]    0.0    0.00    0.00       1         __xmlf90_dom_document_MOD_createdocumentnode [274]
+                0.00    0.00       2/1401        __xmlf90_strings_MOD_assign_c_to_s [44]
+                0.00    0.00       1/525         __xmlf90_dom_types_MOD_createnode [56]
+-----------------------------------------------
+                0.00    0.00       1/1           __xmlf90_dom_element_MOD_normalize [276]
+[275]    0.0    0.00    0.00       1         __xmlf90_dom_element_MOD_concatenatetext [275]
+                0.00    0.00     169/169         __xmlf90_strings_MOD_append_to_string_s [92]
+                0.00    0.00     168/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00     168/178         __xmlf90_dom_types_MOD_destroynode <cycle 1> [62]
+                0.00    0.00       1/1           __xmlf90_strings_MOD_resize_string [279]
+                0.00    0.00       1/884         __xmlf90_strings_MOD_assign_s_to_s [54]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [223]
+[276]    0.0    0.00    0.00       1         __xmlf90_dom_element_MOD_normalize [276]
+                0.00    0.00     169/494         __xmlf90_strings_MOD_len_s [59]
+                0.00    0.00     169/1031        __xmlf90_dom_node_MOD_getnextsibling [52]
+                0.00    0.00       1/1           __xmlf90_dom_element_MOD_concatenatetext [275]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[277]    0.0    0.00    0.00       1         __xmlf90_dom_element_MOD_removeattribute [277]
+-----------------------------------------------
+                0.00    0.00       1/1           __dftbp_parser_MOD_parsehsdtree [250]
+[278]    0.0    0.00    0.00       1         __xmlf90_dom_namednodemap_MOD_removenameditem [278]
+                0.00    0.00       5/1270        __xmlf90_strings_MOD_s_eq_c [45]
+-----------------------------------------------
+                0.00    0.00       1/1           __xmlf90_dom_element_MOD_concatenatetext [275]
+[279]    0.0    0.00    0.00       1         __xmlf90_strings_MOD_resize_string [279]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [35] __dftbp_bisect_MOD_bisection_real [239] __dftbp_linkedlisti0_MOD_listint_init [124] __dftbp_schedule_MOD_assembler2chunks
+  [83] __dftbp_blasroutines_MOD_herk_dble [197] __dftbp_linkedlisti0_MOD_listint_len [67] __dftbp_schedule_MOD_distributerangeinchunks
+  [53] __dftbp_charmanip_MOD_complementaryscan [198] __dftbp_linkedlisti1_MOD_listintr1_append [125] __dftbp_shift_MOD_add_shift_block
+  [88] __dftbp_charmanip_MOD_convertwhitespaces [199] __dftbp_linkedlisti1_MOD_listintr1_destruct [126] __dftbp_shift_MOD_addatom_shell
+  [80] __dftbp_charmanip_MOD_getfirstoccurance [200] __dftbp_linkedlisti1_MOD_listintr1_init [127] __dftbp_shift_MOD_addshell_block
+ [138] __dftbp_charmanip_MOD_getnextquotationpos [150] __dftbp_linkedlisti1_MOD_listintr1_intoarray [16] __dftbp_sk_MOD_rotateh0
+ [140] __dftbp_charmanip_MOD_i2c [142] __dftbp_linkedlisti1_MOD_listintr1_len [155] __dftbp_slakocont_MOD_slakocont_addtableeqgrid
+  [89] __dftbp_charmanip_MOD_tolower [173] __dftbp_linkedlistlc0_MOD_listcharlc_append [203] __dftbp_slakocont_MOD_slakocont_getcutoff
+ [135] __dftbp_charmanip_MOD_trim2 [174] __dftbp_linkedlistlc0_MOD_listcharlc_destruct [40] __dftbp_slakocont_MOD_slakocont_getmintegrals
+ [154] __dftbp_charmanip_MOD_unquote [175] __dftbp_linkedlistlc0_MOD_listcharlc_get [4] __dftbp_slakocont_MOD_slakocont_getskintegrals
+  [60] __dftbp_charmanip_MOD_unquotedindex [176] __dftbp_linkedlistlc0_MOD_listcharlc_init [204] __dftbp_slakocont_MOD_slakocont_init
+ [139] __dftbp_charmanip_MOD_unquotedscan [162] __dftbp_linkedlists0_MOD_liststring_append [156] __dftbp_slakoeqgrid_MOD_slakoeqgrid_getcutoff
+  [98] __dftbp_densitymatrix_MOD_fulldensitymatrix_real [240] __dftbp_linkedlists0_MOD_liststring_asarray [157] __dftbp_slakoeqgrid_MOD_slakoeqgrid_getnintegrals
+ [206] __dftbp_dummytherm_MOD_dummythermostat_getinitvelos [166] __dftbp_linkedlists0_MOD_liststring_destruct [3] __dftbp_slakoeqgrid_MOD_slakoeqgrid_getskintegrals
+ [207] __dftbp_dummytherm_MOD_dummythermostat_init [177] __dftbp_linkedlists0_MOD_liststring_get [158] __dftbp_slakoeqgrid_MOD_slakoeqgrid_init
+  [99] __dftbp_eigensolver_MOD_dble_dsygvd [167] __dftbp_linkedlists0_MOD_liststring_init [20] __dftbp_sorting_MOD_index_heap_sort_real
+ [100] __dftbp_eigenvects_MOD_diagdenserealmtx [168] __dftbp_linkedlists0_MOD_liststring_len [17] __dftbp_sparse2dense_MOD_packhs_real
+   [1] __dftbp_elecconstraints_MOD_constrainq [9] __dftbp_main_MOD_hasstopfile [18] __dftbp_sparse2dense_MOD_unpackhs_real
+ [208] __dftbp_elecsolvers_MOD_telectronicsolver_getsolvername [8] __dftbp_main_MOD_processgeometry [128] __dftbp_spin_MOD_qm2ud2
+ [209] __dftbp_elecsolvers_MOD_telectronicsolver_init [7] __dftbp_main_MOD_rundftbplus [86] __dftbp_spin_MOD_qm2ud3
+ [101] __dftbp_elecsolvers_MOD_telectronicsolver_reset [190] __dftbp_mainio_MOD_initoutputfile [129] __dftbp_spin_MOD_ud2qm2
+ [102] __dftbp_elecsolvers_MOD_telectronicsolver_updateelectronictemp [109] __dftbp_mainio_MOD_opendetailedout [262] __dftbp_taggedoutput_MOD_ttaggedwriter_init
+ [210] __dftbp_energies_MOD_energies_init [110] __dftbp_mainio_MOD_printenergies [263] __dftbp_thermostat_MOD_thermostat_getinitvelocities
+ [211] __dftbp_environment_MOD_tenvironment_destruct [111] __dftbp_mainio_MOD_printgeostepinfo [264] __dftbp_thermostat_MOD_thermostat_init_dummy
+ [212] __dftbp_environment_MOD_tenvironment_init [112] __dftbp_mainio_MOD_printmdinfo [130] __dftbp_thermostat_MOD_thermostat_state
+ [213] __dftbp_environment_MOD_tenvironment_initglobaltimer [113] __dftbp_mainio_MOD_writebandout [131] __dftbp_thermostat_MOD_thermostat_updatevelocities
+ [103] __dftbp_etemp_MOD_derivelectroncount [114] __dftbp_mainio_MOD_writecurrentgeometry [47] __dftbp_timer_MOD_getcputime
+  [24] __dftbp_etemp_MOD_efilling [21] __dftbp_mainio_MOD_writedetailedout1 [48] __dftbp_timer_MOD_getwallclocktime
+ [104] __dftbp_etemp_MOD_electronfill [115] __dftbp_mainio_MOD_writedetailedout2 [46] __dftbp_timer_MOD_start
+ [193] __dftbp_fileid_MOD_getfileid [116] __dftbp_mainio_MOD_writedetailedout3 [49] __dftbp_timer_MOD_stoptimer
+ [214] __dftbp_fileregistry_MOD_tfileregistry_closeall [117] __dftbp_mainio_MOD_writedetailedout4 [265] __dftbp_timerarray_MOD_reset
+ [215] __dftbp_fileregistry_MOD_tfileregistry_init [241] __dftbp_mainio_MOD_writedetailedout5 [50] __dftbp_timerarray_MOD_starttimer
+ [194] __dftbp_fileregistry_MOD_tfileregistry_register [242] __dftbp_mainio_MOD_writefinaldriverstatus [51] __dftbp_timerarray_MOD_stoptimer
+ [195] __dftbp_formatout_MOD_clearfile_fname [118] __dftbp_mainio_MOD_writemdout1 [266] __dftbp_timerarray_MOD_ttimerarray_init
+ [216] __dftbp_formatout_MOD_printdftbheader [119] __dftbp_mainio_MOD_writemdout2 [267] __dftbp_timerarray_MOD_writetimings
+ [105] __dftbp_formatout_MOD_writegenformat_fid [243] __dftbp_mainio_MOD_writemdout3 [64] __dftbp_tokenreader_MOD_getnexttoken_integer
+ [106] __dftbp_formatout_MOD_writegenformat_fname [65] __dftbp_mdcommon_MOD_boxmueller [55] __dftbp_tokenreader_MOD_getnexttoken_local
+ [107] __dftbp_formatout_MOD_writexyzformat_fid [82] __dftbp_mdcommon_MOD_evalke [58] __dftbp_tokenreader_MOD_getnexttoken_real
+ [108] __dftbp_formatout_MOD_writexyzformat_fname [95] __dftbp_mdcommon_MOD_maxwellboltzmann [96] __dftbp_tokenreader_MOD_getnexttoken_realr1
+ [217] __dftbp_globalenv_MOD_destructglobalenv [97] __dftbp_mdcommon_MOD_mdcommon_evalkt [151] __dftbp_tokenreader_MOD_getnexttoken_string
+ [218] __dftbp_globalenv_MOD_initglobalenv [244] __dftbp_mdcommon_MOD_mdcommon_init [268] __dftbp_typegeometry_MOD_geometry_normalize
+ [219] __dftbp_hsdhelpers_MOD_dopostparsejobs [245] __dftbp_mdcommon_MOD_mdcommon_rescaletokt [269] __dftbp_typegeometryhsd_MOD_readtgeometrygen
+ [220] __dftbp_hsdhelpers_MOD_parsehsdinput [246] __dftbp_mdcommon_MOD_mdcommon_restframe [132] __dftbp_velocityverlet_MOD_velocityverlet_next
+ [143] __dftbp_hsdparser_MOD_createchildnode.constprop.1 [247] __dftbp_mdintegrator_MOD_mdintegrator_init_vverlet [133] __dftbp_velocityverlet_MOD_velocityverlet_state
+ [221] __dftbp_hsdparser_MOD_dumphsd_file [120] __dftbp_mdintegrator_MOD_mdintegrator_next [270] __dftbp_velocityverlet_MOD_velocityverlet_themostats
+ [222] __dftbp_hsdparser_MOD_dumphsd_opened [121] __dftbp_mdintegrator_MOD_mdintegrator_state [192] __dftbp_xmlutils_MOD_getchildrenbyname
+ [160] __dftbp_hsdparser_MOD_dumphsd_recursive [10] __dftbp_nonscc_MOD___copy_dftbp_nonscc_Difftypesenum [134] __dftbp_xmlutils_MOD_getfirstchildbyname
+ [223] __dftbp_hsdparser_MOD_parse_recursive.constprop.0 [13] __dftbp_nonscc_MOD_buildh0 [271] __dftbp_xmlutils_MOD_gettagswithoutattr_recursive
+ [224] __dftbp_hsdparser_MOD_parsehsd_file [14] __dftbp_nonscc_MOD_builds [272] __dftbp_xmlutils_MOD_gettagswithoutattribute
+ [225] __dftbp_hsdparser_MOD_parsehsd_opened [2] __dftbp_nonscc_MOD_getfirstderiv [273] __dftbp_xmlutils_MOD_removenodes
+ [169] __dftbp_hsdutils2_MOD_convertbymul_real [248] __dftbp_nonscc_MOD_nonsccdiff_init [73] __xmlf90_dom_attribute_MOD_attrib_setvalue
+ [196] __dftbp_hsdutils2_MOD_getmodifierindex [178] __dftbp_oldskdata_MOD_oldskdata_readfromfile [74] __xmlf90_dom_document_MOD_createattribute
+ [170] __dftbp_hsdutils2_MOD_getnodename2 [179] __dftbp_oldskdata_MOD_oldskdata_readsplinerep [274] __xmlf90_dom_document_MOD_createdocumentnode
+ [226] __dftbp_hsdutils2_MOD_setunprocessed [43] __dftbp_orbitals_MOD_getshellnames [136] __xmlf90_dom_document_MOD_createelement
+ [227] __dftbp_hsdutils2_MOD_warnunprocessednodes [249] __dftbp_parallelks_MOD_tparallelks_init [81] __xmlf90_dom_document_MOD_createtextnode
+  [57] __dftbp_hsdutils_MOD_checkerror [180] __dftbp_parser_MOD_getfulltable.constprop.0 [275] __xmlf90_dom_element_MOD_concatenatetext
+ [161] __dftbp_hsdutils_MOD_checknodata [250] __dftbp_parser_MOD_parsehsdtree [147] __xmlf90_dom_element_MOD_getattribute
+ [228] __dftbp_hsdutils_MOD_convatomrangetoint [251] __dftbp_parser_MOD_readanalysis [72] __xmlf90_dom_element_MOD_getattributenode
+ [141] __dftbp_hsdutils_MOD_createchild_local [252] __dftbp_parser_MOD_readhsdfile [276] __xmlf90_dom_element_MOD_normalize
+ [184] __dftbp_hsdutils_MOD_getasstring_int [253] __dftbp_parser_MOD_readskfiles [277] __xmlf90_dom_element_MOD_removeattribute
+ [144] __dftbp_hsdutils_MOD_getasstring_logical [254] __dftbp_periodic_MOD_buildsquaredatomindex [75] __xmlf90_dom_element_MOD_setattribute
+ [185] __dftbp_hsdutils_MOD_getasstring_real [41] __dftbp_periodic_MOD_getnrofneighbours [76] __xmlf90_dom_element_MOD_setattributenode
+ [149] __dftbp_hsdutils_MOD_getchild [84] __dftbp_periodic_MOD_getnrofneighboursforall [79] __xmlf90_dom_namednodemap_MOD_append_nnm
+ [186] __dftbp_hsdutils_MOD_getchildren [122] __dftbp_periodic_MOD_getsparsedescriptor [66] __xmlf90_dom_namednodemap_MOD_getnameditem
+ [164] __dftbp_hsdutils_MOD_getchval_int [255] __dftbp_periodic_MOD_init_tneighbourlist [278] __xmlf90_dom_namednodemap_MOD_removenameditem
+ [145] __dftbp_hsdutils_MOD_getchval_logical [123] __dftbp_periodic_MOD_reallocatearrays1 [77] __xmlf90_dom_namednodemap_MOD_setnameditem
+ [171] __dftbp_hsdutils_MOD_getchval_lstring [11] __dftbp_periodic_MOD_updateneighbourlist [71] __xmlf90_dom_node_MOD_appendchild
+ [148] __dftbp_hsdutils_MOD_getchval_node [12] __dftbp_periodic_MOD_updateneighbourlistandspecies [70] __xmlf90_dom_node_MOD_getfirstchild
+ [165] __dftbp_hsdutils_MOD_getchval_real [19] __dftbp_populations_MOD_mullikenperatom [52] __xmlf90_dom_node_MOD_getnextsibling
+ [172] __dftbp_hsdutils_MOD_getchval_string [15] __dftbp_populations_MOD_mullikenperorbital [61] __xmlf90_dom_node_MOD_getnodename
+ [152] __dftbp_hsdutils_MOD_getfirsttextchild [256] __dftbp_potentials_MOD_potentials_init [68] __xmlf90_dom_node_MOD_getnodetype
+ [153] __dftbp_hsdutils_MOD_setchild [257] __dftbp_randomgenpool_MOD___final_dftbp_randomgenpool_Orandomgenpool [90] __xmlf90_dom_node_MOD_getnodevalue
+ [229] __dftbp_hsdutils_MOD_setchval_char [201] __dftbp_randomgenpool_MOD_getgenerator [78] __xmlf90_dom_node_MOD_setnodevalue
+ [187] __dftbp_hsdutils_MOD_setchval_int [258] __dftbp_randomgenpool_MOD_randomgenpool_init [159] __xmlf90_dom_nodelist_MOD_getlength_nl
+ [146] __dftbp_hsdutils_MOD_setchval_logical [91] __dftbp_ranlux_MOD___copy_dftbp_ranlux_Oranlux [56] __xmlf90_dom_types_MOD_createnode
+ [188] __dftbp_hsdutils_MOD_setchval_node [202] __dftbp_ranlux_MOD_ranlux_getrandomnumber [137] __xmlf90_dom_types_MOD_destroynamednodemap
+ [189] __dftbp_hsdutils_MOD_setchval_real [93] __dftbp_ranlux_MOD_ranlux_getrandomvector [62] __xmlf90_dom_types_MOD_destroynode
+ [230] __dftbp_initprogram_MOD_allocatedensematrices [191] __dftbp_ranlux_MOD_ranlux_init_default [205] __xmlf90_dom_types_MOD_destroynodelist
+ [231] __dftbp_initprogram_MOD_destructprogramvariables [181] __dftbp_repcont_MOD_repcont_addrepspline [92] __xmlf90_strings_MOD_append_to_string_s
+ [232] __dftbp_initprogram_MOD_ensuresolvercompatibility [259] __dftbp_repcont_MOD_repcont_getcutoff [44] __xmlf90_strings_MOD_assign_c_to_s
+ [233] __dftbp_initprogram_MOD_getdensedesccommon [36] __dftbp_repcont_MOD_repcont_getenergy [163] __xmlf90_strings_MOD_assign_s_to_c
+ [234] __dftbp_initprogram_MOD_initarrays [37] __dftbp_repcont_MOD_repcont_getenergyderiv [54] __xmlf90_strings_MOD_assign_s_to_s
+ [235] __dftbp_initprogram_MOD_initoutputfiles [260] __dftbp_repcont_MOD_repcont_init [59] __xmlf90_strings_MOD_len_s
+ [236] __dftbp_initprogram_MOD_initprogramvariables [182] __dftbp_repspline_MOD_repspline_getcutoff [279] __xmlf90_strings_MOD_resize_string
+  [42] __dftbp_interpolation_MOD_poly5tozero [38] __dftbp_repspline_MOD_repspline_getenergy [45] __xmlf90_strings_MOD_s_eq_c
+  [23] __dftbp_interpolation_MOD_polyinter [39] __dftbp_repspline_MOD_repspline_getenergyderiv [63] __xmlf90_strings_MOD_s_eq_s
+   [5] __dftbp_interpolation_MOD_polyinteru2 [183] __dftbp_repspline_MOD_repspline_init [69] __xmlf90_strings_MOD_s_to_c
+  [94] __dftbp_linkedlisti0_MOD_listint_append [22] __dftbp_repulsive_MOD_geterep [87] _init
+ [237] __dftbp_linkedlisti0_MOD_listint_asarray [261] __dftbp_sccinit_MOD_initqfromshellchrg [25] <cycle 1>
+ [238] __dftbp_linkedlisti0_MOD_listint_destruct [85] __dftbp_schedule_MOD_assembler1chunks

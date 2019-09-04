@@ -1,0 +1,32 @@
+Geometry = GenFormat { 
+<<< "geo.gen"
+}
+Driver = VelocityVerlet {
+  Steps = 100
+  TimeStep [Femtosecond] = 0.10000000000000
+  Thermostat = None {
+    InitialTemperature [Kelvin] = 5000
+  }
+  OutputPrefix = "geom.out"
+  MDRestartFrequency = 1
+  Velocities = {}
+  ConvergentForcesOnly = No
+}
+
+    Hamiltonian = DFTB {
+      SCC = yes
+      SCCTolerance = 1.00E-12
+      MaxSCCIterations = 10
+      MaxAngularMomentum = {
+        C = "p"
+        H = "s"
+      }
+      solver = MAGMA {}
+      SlaterKosterFiles = {
+    C-C = "C-C.skf"
+C-H = "C-H.skf"
+H-C = "H-C.skf"
+H-H = "H-H.skf"
+      }
+    }
+    
